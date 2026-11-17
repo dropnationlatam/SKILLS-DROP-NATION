@@ -1,0 +1,98 @@
+{
+ "referencias": 4,
+ "duracion_media_s": 77.94,
+ "fps": [
+  30.0
+ ],
+ "ritmo": {
+  "plano_medio_s": 6.35,
+  "plano_mediana_s": 4.59,
+  "cortes_por_min": 8.88,
+  "cortes_primeros_3s": 0,
+  "primer_corte_s": 6.63
+ },
+ "transiciones_pct": {
+  "fundido / transición suave": 37.3,
+  "corte seco": 35.3,
+  "barrido / desenfoque de movimiento": 17.6,
+  "inicio": 7.8,
+  "paso por negro": 2.0
+ },
+ "movimiento_pct": {
+  "cámara nerviosa / sacudida": 90.2,
+  "paneo vertical": 51.0,
+  "alejamiento (pull out)": 37.3,
+  "acercamiento (push in)": 35.3,
+  "paneo izq→der": 31.4,
+  "paneo der→izq": 23.5,
+  "giro": 13.7,
+  "quieto": 5.9
+ },
+ "grading": {
+  "brillo_medio": 32.95,
+  "contraste": 17.02,
+  "saturacion_media": 50.72,
+  "temperatura": -3.1
+ },
+ "layout": {
+  "arriba_pct": 21.5,
+  "centro_pct": 51.75,
+  "abajo_pct": 26.5
+ },
+ "paletas": {
+  "De adolescente te CORTABAS las cejas..#c": [
+   "#DB9176",
+   "#E55F6B",
+   "#A16F63",
+   "#81384E",
+   "#ECBA9C",
+   "#B0495F"
+  ],
+  "Las legañas no te salen solo de noche, l": [
+   "#362E38",
+   "#52434C",
+   "#71544C",
+   "#906A5A",
+   "#191722",
+   "#C3958D"
+  ],
+  "¿Alguna vez te preguntaste cómo llega la": [
+   "#0A091E",
+   "#161B3E",
+   "#263466",
+   "#4B5B82",
+   "#432C2B",
+   "#85493C"
+  ],
+  "¿Por qué se te duerme la pierna y luego ": [
+   "#19102D",
+   "#6D326D",
+   "#3B1F4B",
+   "#816564",
+   "#433B33",
+   "#BB9592"
+  ]
+ },
+ "subtitulos": {
+  "bloques_leidos": 777,
+  "y_pct_mediana": 37.3,
+  "alto_px_mediana": 52,
+  "palabras_por_bloque": 2.5,
+  "segundos_en_pantalla": 0.68,
+  "mayusculas_pct": 13,
+  "relleno_frecuente": "#FEFAFC",
+  "borde_frecuente": "#524347"
+ },
+ "voz": null,
+ "audio": {
+  "lufs": -14.2,
+  "golpes_por_min": 54.38,
+  "cortes_con_golpe_pct": 24.75,
+  "fondo_continuo": [
+   false,
+   false,
+   false,
+   false
+  ]
+ }
+}

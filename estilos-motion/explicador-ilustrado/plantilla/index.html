@@ -1,0 +1,191 @@
+<!doctype html>
+<!--
+  PLANTILLA · ESTILO "EXPLICADOR ILUSTRADO" (Drop Nation · Skill Motion)
+  Demo de 13,5 s: "¿Por qué tu celular quema cuando lo cargas?"
+  Copia esta carpeta a Trabajo/<Idea>/, cambia escenas, palabras y sonidos.
+  Recetas en assets/estilo.js · valores en ../estilo.json · reglas en ../Guía de estilo.md
+-->
+<html lang="es"
+  data-composition-variables='[
+  {"id":"fondo-morado","type":"color","label":"Fondo morado","default":"#1E1033"},
+  {"id":"fondo-azul","type":"color","label":"Fondo azul","default":"#0B0A22"},
+  {"id":"neon-rosa","type":"color","label":"Neón rosa","default":"#FF3FA4"},
+  {"id":"neon-cian","type":"color","label":"Neón cian","default":"#43D9FF"},
+  {"id":"caja-clave","type":"color","label":"Caja palabra clave","default":"#2F7BFF"}
+  ]'>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1080, height=1920" />
+  <script src="assets/gsap.min.js"></script>
+  <link rel="stylesheet" href="assets/estilo.css" />
+  <script src="assets/estilo.js"></script>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="13.5" data-width="1080" data-height="1920" data-fps="30">
+
+  <!-- ============ ESCENA 1 · el gancho (celular cargando que quema) ============ -->
+  <div id="e1" class="escena clip" data-start="0" data-duration="4.9" data-track-index="0">
+    <div id="e1-cam" class="camara">
+      <div class="capa fondo-morado"></div>
+      <div id="e1-part" class="capa"></div>
+      <svg class="capa" viewBox="0 0 1296 2304">
+        <defs>
+          <radialGradient id="g-calor" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FF5A3C" stop-opacity=".75"/><stop offset="1" stop-color="#FF3FA4" stop-opacity="0"/></radialGradient>
+          <linearGradient id="g-cuerpo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3A3550"/><stop offset="1" stop-color="#15121F"/></linearGradient>
+          <radialGradient id="g-pantalla" cx="50%" cy="40%" r="70%"><stop offset="0" stop-color="#2B4C9B"/><stop offset="1" stop-color="#0C1230"/></radialGradient>
+        </defs>
+        <ellipse id="e1-calor" cx="648" cy="1180" rx="520" ry="620" fill="url(#g-calor)" opacity="0"/>
+        <g id="e1-ondas" stroke="#FF6A4D" stroke-width="10" fill="none">
+          <circle class="onda1" cx="648" cy="1180" r="560"/><circle class="onda1" cx="648" cy="1180" r="560"/>
+        </g>
+        <!-- cable -->
+        <path d="M648 1700 C648 1900 520 1950 470 2304" stroke="#E9E6F2" stroke-width="26" fill="none" stroke-linecap="round"/>
+        <rect x="618" y="1660" width="60" height="70" rx="12" fill="#CFCBDA"/>
+        <!-- celular -->
+        <rect x="378" y="640" width="540" height="1080" rx="80" fill="url(#g-cuerpo)" stroke="#5B5570" stroke-width="6"/>
+        <rect x="402" y="664" width="492" height="1032" rx="62" fill="url(#g-pantalla)"/>
+        <rect x="588" y="690" width="120" height="30" rx="15" fill="#08080F"/>
+        <!-- ícono batería en pantalla -->
+        <rect x="548" y="1110" width="200" height="104" rx="18" fill="none" stroke="#fff" stroke-width="10" opacity=".9"/>
+        <rect x="752" y="1144" width="16" height="36" rx="5" fill="#fff" opacity=".9"/>
+        <rect id="e1-carga" x="562" y="1124" width="40" height="76" rx="8" fill="#3DFFA8"/>
+        <path d="M660 1090 l-34 70 h30 l-20 70 l56 -86 h-32 l24 -54z" fill="#FFC94A"/>
+      </svg>
+      <div class="vineta"></div>
+    </div>
+    <div id="e1-globo" class="globo" style="left:770px; top:820px; opacity:0">?</div>
+  </div>
+
+  <!-- ============ ESCENA 2 · por dentro (batería de litio, iones viajando) ============ -->
+  <div id="e2" class="escena clip" data-start="4.4" data-duration="5.2" data-track-index="1" style="opacity:0">
+    <div id="e2-cam" class="camara">
+      <div class="capa fondo-azul"></div>
+      <div id="e2-part" class="capa"></div>
+      <svg class="capa" viewBox="0 0 1296 2304">
+        <defs>
+          <linearGradient id="g-placa-a" x1="0" x2="1"><stop offset="0" stop-color="#5A6B95"/><stop offset="1" stop-color="#2C3657"/></linearGradient>
+          <linearGradient id="g-placa-c" x1="0" x2="1"><stop offset="0" stop-color="#8A4A5E"/><stop offset="1" stop-color="#4E2638"/></linearGradient>
+          <radialGradient id="g-electro" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#1D3E6E" stop-opacity=".9"/><stop offset="1" stop-color="#0E1A33" stop-opacity=".9"/></radialGradient>
+        </defs>
+        <!-- carcasa de la batería en corte -->
+        <rect x="190" y="760" width="916" height="880" rx="70" fill="url(#g-electro)" stroke="#9FB4E6" stroke-opacity=".5" stroke-width="8"/>
+        <rect x="240" y="810" width="190" height="780" rx="30" fill="url(#g-placa-a)"/>
+        <rect x="866" y="810" width="190" height="780" rx="30" fill="url(#g-placa-c)"/>
+        <!-- separador -->
+        <line x1="648" y1="820" x2="648" y2="1580" stroke="#DDE6FF" stroke-opacity=".35" stroke-width="6" stroke-dasharray="18 18"/>
+        <!-- caminos de iones (neón) -->
+        <g class="brillo-neon" style="color:#43D9FF">
+          <path class="ion" d="M430 900 C560 860 740 960 866 900" stroke="#43D9FF" stroke-width="12"/>
+          <path class="ion" d="M430 1080 C560 1140 740 1020 866 1080" stroke="#43D9FF" stroke-width="12"/>
+          <path class="ion" d="M430 1260 C560 1210 740 1320 866 1260" stroke="#43D9FF" stroke-width="12"/>
+          <path class="ion" d="M430 1440 C560 1500 740 1380 866 1440" stroke="#43D9FF" stroke-width="12"/>
+        </g>
+        <g class="brillo-neon" style="color:#FFC94A">
+          <path class="calor-linea" d="M300 1650 C420 1760 560 1700 648 1800 C740 1700 880 1760 1000 1650" stroke="#FFC94A" stroke-width="10" fill="none"/>
+        </g>
+      </svg>
+      <div class="vineta"></div>
+    </div>
+    <div id="e2-etq" class="etiqueta" style="left:300px; top:1450px; opacity:0">batería de litio</div>
+    <div id="e2-etq2" class="etiqueta oscura" style="left:410px; top:1680px; opacity:0">iones en viaje</div>
+  </div>
+
+  <!-- ============ ESCENA 3 · el dato (45 °C) + cierre con comentario ============ -->
+  <div id="e3" class="escena clip" data-start="9.1" data-duration="4.4" data-track-index="2" style="opacity:0">
+    <div id="e3-cam" class="camara">
+      <div class="capa fondo-morado"></div>
+      <div id="e3-part" class="capa"></div>
+      <svg class="capa" viewBox="0 0 1296 2304">
+        <g stroke="#FF3FA4" stroke-width="10" fill="none" class="brillo-neon" style="color:#FF3FA4">
+          <circle class="onda3" cx="648" cy="1150" r="600"/><circle class="onda3" cx="648" cy="1150" r="600"/><circle class="onda3" cx="648" cy="1150" r="600"/>
+        </g>
+        <circle cx="648" cy="1150" r="300" fill="#2A1240" stroke="#FF3FA4" stroke-width="12"/>
+      </svg>
+      <div class="vineta"></div>
+    </div>
+    <div id="e3-num" style="position:absolute; left:0; width:1080px; top:860px; text-align:center; font:800 230px/1 Poppins, sans-serif; color:#fff; text-shadow:0 0 30px #FF3FA4, 0 0 70px #FF3FA4; opacity:0">0°</div>
+    <div id="e3-etq" class="etiqueta" style="left:375px; top:1180px; opacity:0">temperatura</div>
+    <div id="e3-burb" class="burbuja" style="left:330px; top:1460px; opacity:0"><span class="punto"></span>¡CALOR!</div>
+  </div>
+
+  <!-- ============ capas globales ============ -->
+  <div id="subtitulos" class="clip" data-start="0" data-duration="13.5" data-track-index="3" data-track-kind="captions" style="height:300px"></div>
+  <div id="destello"></div>
+  <div id="negro"></div>
+
+  <!-- ============ efectos de sonido (sin música: la pone el editor) ============ -->
+  <audio id="s-impacto" class="clip" data-start="0.12" data-track-index="10" data-volume="0.9" src="assets/sfx/impacto.wav"></audio>
+  <audio id="s-tick1" class="clip" data-start="1.15" data-track-index="11" data-volume="0.6" src="assets/sfx/tick.wav"></audio>
+  <audio id="s-pop1" class="clip" data-start="2.0" data-track-index="12" data-volume="0.7" src="assets/sfx/pop.wav"></audio>
+  <audio id="s-whoosh1" class="clip" data-start="4.2" data-track-index="13" data-volume="0.9" src="assets/sfx/whoosh.wav"></audio>
+  <audio id="s-pop2" class="clip" data-start="5.1" data-track-index="14" data-volume="0.7" src="assets/sfx/pop.wav"></audio>
+  <audio id="s-pulso" class="clip" data-start="5.6" data-track-index="15" data-volume="0.5" src="assets/sfx/pulso.wav"></audio>
+  <audio id="s-pop3" class="clip" data-start="7.0" data-track-index="16" data-volume="0.6" src="assets/sfx/pop.wav"></audio>
+  <audio id="s-tick2" class="clip" data-start="8.55" data-track-index="17" data-volume="0.6" src="assets/sfx/tick.wav"></audio>
+  <audio id="s-brillo" class="clip" data-start="9.3" data-track-index="18" data-volume="0.7" src="assets/sfx/brillo.wav"></audio>
+  <audio id="s-whoosh2" class="clip" data-start="9.2" data-track-index="19" data-volume="0.6" src="assets/sfx/whoosh_corto.wav"></audio>
+  <audio id="s-pop4" class="clip" data-start="10.8" data-track-index="20" data-volume="0.7" src="assets/sfx/pop.wav"></audio>
+  <audio id="s-burbuja" class="clip" data-start="11.6" data-track-index="21" data-volume="0.8" src="assets/sfx/burbuja.wav"></audio>
+</div>
+
+<script>
+  const tl = gsap.timeline({ paused: true });
+
+  /* ---------- subtítulos (en un video real salen de la voz de Piper medida) ---------- */
+  const palabras = [
+    { p: "¿Por", i: 0.15, f: 0.35 }, { p: "qué", i: 0.35, f: 0.55 }, { p: "tu", i: 0.55, f: 0.7 },
+    { p: "celular", i: 0.7, f: 1.15 }, { p: "QUEMA", i: 1.15, f: 1.6, clave: true }, { p: "cuando", i: 1.6, f: 1.9 },
+    { p: "lo", i: 1.9, f: 2.0 }, { p: "cargas?", i: 2.0, f: 2.5 },
+    { p: "Adentro", i: 2.75, f: 3.1 }, { p: "hay", i: 3.1, f: 3.25 }, { p: "una", i: 3.25, f: 3.4 },
+    { p: "batería", i: 3.4, f: 3.85 }, { p: "de", i: 3.85, f: 3.95 }, { p: "litio.", i: 3.95, f: 4.4, clave: true },
+    { p: "Cada", i: 4.75, f: 5.0 }, { p: "carga", i: 5.0, f: 5.35 }, { p: "empuja", i: 5.35, f: 5.7 },
+    { p: "millones", i: 5.7, f: 6.1 }, { p: "de", i: 6.1, f: 6.2 }, { p: "iones", i: 6.2, f: 6.7, clave: true },
+    { p: "de", i: 6.8, f: 6.9 }, { p: "un", i: 6.9, f: 7.0 }, { p: "lado", i: 7.0, f: 7.3 }, { p: "al", i: 7.3, f: 7.4 }, { p: "otro.", i: 7.4, f: 7.8 },
+    { p: "Ese", i: 8.0, f: 8.2 }, { p: "viaje", i: 8.2, f: 8.55 }, { p: "genera", i: 8.55, f: 8.9 }, { p: "calor:", i: 8.9, f: 9.3, clave: true },
+    { p: "hasta", i: 9.5, f: 9.8 }, { p: "45", i: 9.8, f: 10.2 }, { p: "grados.", i: 10.2, f: 10.7 },
+    { p: "Si", i: 11.0, f: 11.1 }, { p: "lo", i: 11.1, f: 11.2 }, { p: "sabías,", i: 11.2, f: 11.6 },
+    { p: "comenta", i: 11.6, f: 12.0 }, { p: "CALOR", i: 12.0, f: 12.6, clave: true }
+  ];
+  EI.karaoke(tl, "#subtitulos", palabras);
+
+  /* ---------- escena 1 ---------- */
+  EI.particulas(tl, "#e1-part", 26, 0, 4.9, 3);
+  EI.camara(tl, "#e1-cam", 0, 4.4, { scale: 1.0, y: 40 }, { scale: 1.1, y: -20 }, "sine.inOut");
+  tl.fromTo("#e1-carga", { attr: { width: 40 } }, { attr: { width: 172 }, duration: 3.6, ease: "none" }, 0.2);
+  tl.fromTo("#e1-calor", { opacity: 0 }, { opacity: 1, duration: 0.6, ease: "power2.out" }, 1.15);
+  EI.ondas(tl, "#e1-ondas .onda1", 1.15, 3, 1.0);
+  EI.sacudida(tl, "#e1-cam", 1.15, 16, 0.4);
+  EI.pop(tl, "#e1-globo", 2.0);
+  /* transición 1→2: entrar al celular */
+  EI.entrarZoom(tl, "#e1-cam", "#e2", 4.6, "50% 52%");
+  tl.set("#e1", { opacity: 0 }, 4.85);
+
+  /* ---------- escena 2 ---------- */
+  EI.particulas(tl, "#e2-part", 34, 4.4, 5.2, 21, "rgba(255,201,74,.9)");
+  EI.camara(tl, "#e2-cam", 4.4, 4.45, { scale: 1.12, x: 20 }, { scale: 1.0, x: -20 }, "sine.out");
+  EI.neonDibujar(tl, "#e2 .ion", 4.7, 0.6);
+  EI.neonPulso(tl, "#e2 .ion", 5.4, 4, 0.8, 140);
+  EI.pop(tl, "#e2-etq", 5.1);
+  EI.pop(tl, "#e2-etq2", 7.0);
+  EI.neonDibujar(tl, "#e2 .calor-linea", 8.55, 0.7);
+  EI.empujon(tl, "#e2-cam", 8.9, 0.06);
+  /* transición 2→3: destello (revelación del dato) */
+  EI.destello(tl, 9.3, 0.9);
+  EI.corte(tl, "#e2", "#e3", 9.36);
+
+  /* ---------- escena 3 ---------- */
+  EI.particulas(tl, "#e3-part", 22, 9.1, 4.4, 33, "rgba(255,63,164,.9)");
+  EI.camara(tl, "#e3-cam", 9.1, 4.4, { scale: 1.0 }, { scale: 1.06 }, "sine.inOut");
+  EI.ondas(tl, "#e3 .onda3", 9.5, 3, 1.1);
+  tl.set("#e3-num", { opacity: 1 }, 9.4);
+  EI.contador(tl, "#e3-num", 9.4, 0, 45, 1.2, "°");
+  EI.empujon(tl, "#e3-num", 10.6, 0.08);
+  EI.pop(tl, "#e3-etq", 10.8);
+  EI.pop(tl, "#e3-burb", 11.6);
+  EI.sacudida(tl, "#e3-burb", 12.0, 8, 0.3);
+
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>
