@@ -18,17 +18,19 @@ estilos-motion/
 ├── indice.json                      lista de estilos (id, nombre, versión)
 ├── herramientas/
 │   ├── importar_estilo.py           baja e instala estilos en un paso
-│   ├── extraer_estilo.py            Fase A: mide todo de los mp4
+│   ├── extraer_estilo.py            Fase A: mide todo de los mp4, saca la gramática y el storyboard real de cada uno
+│   ├── storyboard.py                Fase E2: genera, puntúa y afina storyboards del estilo
 │   ├── comparar.py                  Fase D: referencia vs clon en números
 │   ├── generar_sfx.py               crea los efectos de sonido por código
-│   ├── Proceso de extracción.md     el método completo (6 fases)
+│   ├── Proceso de extracción.md     el método completo (7 fases)
 │   └── requirements.txt
 └── <id-del-estilo>/
     ├── Guía de estilo.md
     ├── estilo.json
     ├── plantilla/                   proyecto HyperFrames (index.html + assets/)
     ├── ejemplo/demo.mp4
-    ├── Estudio/                     informe, lectura, hojas de contacto, prueba de clon
+    ├── Estudio/                     informe, gramática, lectura, storyboard real y hojas de cada referencia
+    ├── Storyboards/                 storyboards generados + puntaje
     └── Referencias/                 mp4 originales
 ```
 

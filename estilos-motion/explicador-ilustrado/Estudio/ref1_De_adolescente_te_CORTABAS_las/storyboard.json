@@ -1,0 +1,934 @@
+{
+ "titulo": "De adolescente te CORTABAS las cejas..#cejas #datos #maquillaje #belleza #uñas.mp4",
+ "tipo": "referencia",
+ "duracion_s": 82.59,
+ "planos": [
+  {
+   "n": 1,
+   "inicio": 0.0,
+   "dura": 11.27,
+   "transicion_entrada": "inicio",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     2.223
+    ],
+    "x_px": [
+     0,
+     447
+    ],
+    "y_px": [
+     0,
+     855
+    ],
+    "giro_grados": [
+     0,
+     -9.1
+    ],
+    "ease": "none",
+    "sacudida": false
+   },
+   "eventos": [
+    {
+     "t": 0.27,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 0.83,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 1.63,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 2.13,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 2.63,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 3.4,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 4.13,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 5.87,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 7.8,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 11.03,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 1.36,
+     "sonido": "pop"
+    },
+    {
+     "t": 2.14,
+     "sonido": "pop"
+    },
+    {
+     "t": 4.78,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 5.16,
+     "sonido": "pop"
+    },
+    {
+     "t": 5.42,
+     "sonido": "pop"
+    },
+    {
+     "t": 5.8,
+     "sonido": "tick"
+    },
+    {
+     "t": 6.9,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 8.84,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "que DS para",
+   "etiquetas": [
+    "EA",
+    "ES",
+    "NN"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/001.jpg)",
+   "color": "#C48B74"
+  },
+  {
+   "n": 2,
+   "inicio": 11.27,
+   "dura": 0.3,
+   "transicion_entrada": "barrido",
+   "camara": {
+    "mov": "quieto",
+    "escala": null,
+    "x_px": null,
+    "y_px": null,
+    "giro_grados": null,
+    "ease": null,
+    "sacudida": false
+   },
+   "eventos": [],
+   "sfx": [],
+   "texto_voz": "",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/002.jpg)",
+   "color": "#F5CDB2"
+  },
+  {
+   "n": 3,
+   "inicio": 11.57,
+   "dura": 14.13,
+   "transicion_entrada": "fundido",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.856
+    ],
+    "x_px": [
+     0,
+     397
+    ],
+    "y_px": [
+     0,
+     288
+    ],
+    "giro_grados": [
+     0,
+     2.6
+    ],
+    "ease": "none",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 15.87,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 16.33,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 17.73,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 18.27,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 22.0,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 24.2,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 12.22,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 12.58,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 13.42,
+     "sonido": "pop"
+    },
+    {
+     "t": 14.42,
+     "sonido": "tick"
+    },
+    {
+     "t": 17.04,
+     "sonido": "pop"
+    },
+    {
+     "t": 19.6,
+     "sonido": "tick"
+    },
+    {
+     "t": 19.88,
+     "sonido": "pop"
+    },
+    {
+     "t": 20.22,
+     "sonido": "pop"
+    },
+    {
+     "t": 20.46,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 21.38,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "¿Qué pasa de ACA Cada pelo tu un folículo: dentro la piel. lo arrancas, lículo “agujerito abierto.",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/003.jpg)",
+   "color": "#BC5C5C"
+  },
+  {
+   "n": 4,
+   "inicio": 25.7,
+   "dura": 0.2,
+   "transicion_entrada": "fundido",
+   "camara": {
+    "mov": "quieto",
+    "escala": null,
+    "x_px": null,
+    "y_px": null,
+    "giro_grados": null,
+    "ease": null,
+    "sacudida": false
+   },
+   "eventos": [],
+   "sfx": [],
+   "texto_voz": "",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/004.jpg)",
+   "color": "#9B4D5C"
+  },
+  {
+   "n": 5,
+   "inicio": 25.9,
+   "dura": 0.37,
+   "transicion_entrada": "fundido",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.0,
+     0.695
+    ],
+    "x_px": [
+     0,
+     -183
+    ],
+    "y_px": [
+     0,
+     -180
+    ],
+    "giro_grados": [
+     0,
+     0.0
+    ],
+    "ease": "—",
+    "sacudida": true
+   },
+   "eventos": [],
+   "sfx": [],
+   "texto_voz": "Descansa",
+   "etiquetas": [
+    "Wy"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/005.jpg)",
+   "color": "#C15B5E"
+  },
+  {
+   "n": 6,
+   "inicio": 26.27,
+   "dura": 0.57,
+   "transicion_entrada": "fundido",
+   "camara": {
+    "mov": "deriva leve",
+    "escala": [
+     1.0,
+     0.978
+    ],
+    "x_px": [
+     0,
+     -13
+    ],
+    "y_px": [
+     0,
+     -15
+    ],
+    "giro_grados": [
+     0,
+     -0.0
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "eventos": [],
+   "sfx": [],
+   "texto_voz": "",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/006.jpg)",
+   "color": "#AC5258"
+  },
+  {
+   "n": 7,
+   "inicio": 26.83,
+   "dura": 0.2,
+   "transicion_entrada": "fundido",
+   "camara": {
+    "mov": "quieto",
+    "escala": null,
+    "x_px": null,
+    "y_px": null,
+    "giro_grados": null,
+    "ease": null,
+    "sacudida": false
+   },
+   "eventos": [],
+   "sfx": [],
+   "texto_voz": "Descansa unos meses,",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/007.jpg)",
+   "color": "#914652"
+  },
+  {
+   "n": 8,
+   "inicio": 27.03,
+   "dura": 11.23,
+   "transicion_entrada": "fundido",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.113
+    ],
+    "x_px": [
+     0,
+     -39
+    ],
+    "y_px": [
+     0,
+     161
+    ],
+    "giro_grados": [
+     0,
+     -3.0
+    ],
+    "ease": "power2.in",
+    "sacudida": false
+   },
+   "eventos": [
+    {
+     "t": 37.3,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 27.26,
+     "sonido": "pop"
+    },
+    {
+     "t": 27.66,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 28.02,
+     "sonido": "tick"
+    },
+    {
+     "t": 29.66,
+     "sonido": "tick"
+    },
+    {
+     "t": 31.94,
+     "sonido": "pop"
+    },
+    {
+     "t": 34.16,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 34.54,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 34.94,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 36.86,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "nuevo, pelo nuevo por el MISMOS Pero si una encogiendo,",
+   "etiquetas": [
+    "fu",
+    "ta"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/008.jpg)",
+   "color": "#BC5758"
+  },
+  {
+   "n": 9,
+   "inicio": 38.27,
+   "dura": 6.07,
+   "transicion_entrada": "fundido",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.212
+    ],
+    "x_px": [
+     0,
+     98
+    ],
+    "y_px": [
+     0,
+     205
+    ],
+    "giro_grados": [
+     0,
+     -0.8
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 38.93,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 41.73,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 42.87,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 43.57,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 38.88,
+     "sonido": "pop"
+    },
+    {
+     "t": 39.52,
+     "sonido": "pop"
+    },
+    {
+     "t": 39.9,
+     "sonido": "tick"
+    },
+    {
+     "t": 44.26,
+     "sonido": "pop"
+    }
+   ],
+   "texto_voz": "agujerito se tapa pelo tiene por Ll salir.",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/009.jpg)",
+   "color": "#D46566"
+  },
+  {
+   "n": 10,
+   "inicio": 44.33,
+   "dura": 4.47,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "paneo horizontal",
+    "escala": [
+     1.0,
+     1.103
+    ],
+    "x_px": [
+     0,
+     340
+    ],
+    "y_px": [
+     0,
+     109
+    ],
+    "giro_grados": [
+     0,
+     4.1
+    ],
+    "ease": "none",
+    "sacudida": false
+   },
+   "eventos": [
+    {
+     "t": 45.87,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 45.52,
+     "sonido": "tick"
+    },
+    {
+     "t": 46.42,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 47.04,
+     "sonido": "pop"
+    },
+    {
+     "t": 47.22,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 48.08,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 48.76,
+     "sonido": "pop"
+    }
+   ],
+   "texto_voz": "cicatriz te Ww",
+   "etiquetas": [
+    "AN",
+    "ia"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/010.jpg)",
+   "color": "#D9A086"
+  },
+  {
+   "n": 11,
+   "inicio": 48.8,
+   "dura": 10.0,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.0,
+     0.612
+    ],
+    "x_px": [
+     0,
+     -128
+    ],
+    "y_px": [
+     0,
+     -153
+    ],
+    "giro_grados": [
+     0,
+     0.2
+    ],
+    "ease": "sine.inOut",
+    "sacudida": false
+   },
+   "eventos": [
+    {
+     "t": 53.37,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 56.9,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 49.12,
+     "sonido": "pop"
+    },
+    {
+     "t": 50.74,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 52.2,
+     "sonido": "pop"
+    },
+    {
+     "t": 53.38,
+     "sonido": "pop"
+    },
+    {
+     "t": 53.92,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 56.8,
+     "sonido": "pop"
+    }
+   ],
+   "texto_voz": "al perdiste fabricaba atrás: ahí elo cd un trasplante",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/011.jpg)",
+   "color": "#A64D55"
+  },
+  {
+   "n": 12,
+   "inicio": 58.8,
+   "dura": 3.93,
+   "transicion_entrada": "barrido",
+   "camara": {
+    "mov": "quieto",
+    "escala": [
+     1.0,
+     0.997
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     11
+    ],
+    "giro_grados": [
+     0,
+     -0.2
+    ],
+    "ease": "none",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 59.3,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 61.1,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 62.23,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 60.24,
+     "sonido": "pop"
+    },
+    {
+     "t": 60.92,
+     "sonido": "tick"
+    },
+    {
+     "t": 61.24,
+     "sonido": "pop"
+    },
+    {
+     "t": 62.04,
+     "sonido": "pop"
+    }
+   ],
+   "texto_voz": "quie fe juarda ases",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/012.jpg)",
+   "color": "#C88397"
+  },
+  {
+   "n": 13,
+   "inicio": 62.73,
+   "dura": 9.97,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.568
+    ],
+    "x_px": [
+     0,
+     205
+    ],
+    "y_px": [
+     0,
+     289
+    ],
+    "giro_grados": [
+     0,
+     0.3
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "eventos": [
+    {
+     "t": 63.33,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 63.83,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 64.33,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 65.07,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 66.33,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 66.77,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 67.57,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 68.47,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 63.3,
+     "sonido": "pop"
+    },
+    {
+     "t": 63.5,
+     "sonido": "pop"
+    },
+    {
+     "t": 63.74,
+     "sonido": "tick"
+    },
+    {
+     "t": 65.18,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 67.66,
+     "sonido": "tick"
+    },
+    {
+     "t": 68.32,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 70.76,
+     "sonido": "pop"
+    }
+   ],
+   "texto_voz": "“dermatólogo: agujeritos",
+   "etiquetas": [
+    "IF",
+    "IN",
+    "Mp,"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/013.jpg)",
+   "color": "#B58876"
+  },
+  {
+   "n": 14,
+   "inicio": 72.7,
+   "dura": 5.17,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "deriva leve",
+    "escala": [
+     1.0,
+     1.002
+    ],
+    "x_px": [
+     0,
+     1
+    ],
+    "y_px": [
+     0,
+     97
+    ],
+    "giro_grados": [
+     0,
+     -0.0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "eventos": [
+    {
+     "t": 77.17,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 72.9,
+     "sonido": "pop"
+    },
+    {
+     "t": 73.52,
+     "sonido": "pop"
+    },
+    {
+     "t": 74.98,
+     "sonido": "tick"
+    },
+    {
+     "t": 76.24,
+     "sonido": "pop"
+    },
+    {
+     "t": 76.5,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 76.64,
+     "sonido": "pop"
+    },
+    {
+     "t": 77.86,
+     "sonido": "pop"
+    }
+   ],
+   "texto_voz": "las par días.",
+   "etiquetas": [
+    "10",
+    "11",
+    "12",
+    "13"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/014.jpg)",
+   "color": "#D48FB2"
+  },
+  {
+   "n": 15,
+   "inicio": 77.87,
+   "dura": 4.63,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.369
+    ],
+    "x_px": [
+     0,
+     88
+    ],
+    "y_px": [
+     0,
+     35
+    ],
+    "giro_grados": [
+     0,
+     0.9
+    ],
+    "ease": "sine.inOut",
+    "sacudida": false
+   },
+   "eventos": [
+    {
+     "t": 79.73,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 80.4,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 81.57,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 78.0,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 78.86,
+     "sonido": "tick"
+    },
+    {
+     "t": 79.18,
+     "sonido": "tick"
+    },
+    {
+     "t": 79.4,
+     "sonido": "tick"
+    },
+    {
+     "t": 79.88,
+     "sonido": "pop"
+    },
+    {
+     "t": 80.6,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "Sígueme,",
+   "etiquetas": [
+    "14)",
+    "ES"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/015.jpg)",
+   "color": "#BC8873"
+  }
+ ]
+}

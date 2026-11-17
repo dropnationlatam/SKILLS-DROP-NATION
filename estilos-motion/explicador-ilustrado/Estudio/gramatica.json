@@ -1,0 +1,121 @@
+{
+ "version": "2.0.0",
+ "referencias": 4,
+ "planos_medidos": 62,
+ "duracion_video_s": {
+  "p10": 67.97,
+  "p25": 71.03,
+  "p50": 77.66,
+  "p75": 84.58,
+  "p90": 88.15
+ },
+ "duracion_plano_s": {
+  "p10": 0.37,
+  "p25": 1.85,
+  "p50": 4.08,
+  "p75": 7.12,
+  "p90": 10.7
+ },
+ "transiciones": {
+  "corte seco": 0.371,
+  "fundido": 0.306,
+  "barrido": 0.145,
+  "entrar con zoom": 0.097,
+  "inicio": 0.065,
+  "paso por negro": 0.016
+ },
+ "camara": {
+  "acercamiento": 0.323,
+  "alejamiento": 0.258,
+  "quieto": 0.145,
+  "deriva leve": 0.113,
+  "giro": 0.081,
+  "paneo horizontal": 0.081
+ },
+ "camara_siguiente": {
+  "acercamiento": {
+   "quieto": 0.222,
+   "acercamiento": 0.222,
+   "paneo horizontal": 0.111,
+   "deriva leve": 0.111,
+   "alejamiento": 0.278,
+   "giro": 0.056
+  },
+  "quieto": {
+   "acercamiento": 0.444,
+   "alejamiento": 0.222,
+   "giro": 0.222,
+   "quieto": 0.111
+  },
+  "alejamiento": {
+   "deriva leve": 0.25,
+   "quieto": 0.062,
+   "giro": 0.062,
+   "acercamiento": 0.312,
+   "alejamiento": 0.188,
+   "paneo horizontal": 0.125
+  },
+  "deriva leve": {
+   "quieto": 0.5,
+   "acercamiento": 0.333,
+   "alejamiento": 0.167
+  },
+  "paneo horizontal": {
+   "alejamiento": 0.4,
+   "paneo horizontal": 0.2,
+   "deriva leve": 0.2,
+   "acercamiento": 0.2
+  },
+  "giro": {
+   "acercamiento": 0.5,
+   "alejamiento": 0.5
+  }
+ },
+ "camara_repite_seguida": 0.162,
+ "sacudida_pct": 53.2,
+ "zoom_pct_por_plano": {
+  "p10": 0.56,
+  "p25": 4.6,
+  "p50": 26.3,
+  "p75": 51.7,
+  "p90": 74.34
+ },
+ "paneo_px_por_plano": {
+  "p10": 11.04,
+  "p25": 63.67,
+  "p50": 312.6,
+  "p75": 483.51,
+  "p90": 863.52
+ },
+ "easing": {
+  "none": 0.419,
+  "power2.out": 0.274,
+  "—": 0.129,
+  "power2.in": 0.113,
+  "sine.inOut": 0.065
+ },
+ "eventos_por_s": 0.413,
+ "evento_cada_s": 1.69,
+ "primer_cambio_visual_s": 0.32,
+ "primer_corte_s": 6.66,
+ "sfx_por_min": 54.6,
+ "sfx_tipos": {
+  "pop/click": 0.265,
+  "whoosh": 0.406,
+  "golpe": 0.329
+ },
+ "cortes_con_golpe_pct": 22.1,
+ "palabras_por_seg": 2.65,
+ "subtitulo_cambios_por_s": 2.65,
+ "mejoras": {
+  "duracion_plano_s": [
+   2.0,
+   4.5
+  ],
+  "evento_cada_s_max": 2.0,
+  "primer_cambio_visual_s_max": 0.8,
+  "primer_corte_s_max": 4.0,
+  "cortes_con_golpe_pct_min": 80,
+  "camara_repite_seguida_max": 0.25
+ }
+}

@@ -1,0 +1,1052 @@
+{
+ "titulo": "¿Alguna vez te preguntaste cómo llega la música a tus audífonos bluetooth sin ningún cableTu can.mp4",
+ "tipo": "referencia",
+ "duracion_s": 72.72,
+ "planos": [
+  {
+   "n": 1,
+   "inicio": 0.0,
+   "dura": 4.07,
+   "transicion_entrada": "inicio",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.513
+    ],
+    "x_px": [
+     0,
+     61
+    ],
+    "y_px": [
+     0,
+     552
+    ],
+    "giro_grados": [
+     0,
+     -14.2
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "eventos": [
+    {
+     "t": 0.3,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 1.57,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 2.47,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 0.6,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "¿Cómo música audífonos cable?",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/001.jpg)",
+   "color": "#323A60"
+  },
+  {
+   "n": 2,
+   "inicio": 4.07,
+   "dura": 2.0,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.41
+    ],
+    "x_px": [
+     0,
+     161
+    ],
+    "y_px": [
+     0,
+     398
+    ],
+    "giro_grados": [
+     0,
+     1.6
+    ],
+    "ease": "none",
+    "sacudida": true
+   },
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 4.08,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 4.24,
+     "sonido": "pop"
+    },
+    {
+     "t": 5.22,
+     "sonido": "tick"
+    },
+    {
+     "t": 5.76,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "la canción",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/002.jpg)",
+   "color": "#192245"
+  },
+  {
+   "n": 3,
+   "inicio": 6.07,
+   "dura": 4.87,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.0,
+     0.947
+    ],
+    "x_px": [
+     0,
+     98
+    ],
+    "y_px": [
+     0,
+     -29
+    ],
+    "giro_grados": [
+     0,
+     -0.9
+    ],
+    "ease": "none",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 6.6,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 7.33,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 9.2,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 10.03,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 8.14,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 8.86,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 9.3,
+     "sonido": "tick"
+    },
+    {
+     "t": 9.44,
+     "sonido": "tick"
+    },
+    {
+     "t": 9.78,
+     "sonido": "tick"
+    },
+    {
+     "t": 10.04,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "la canción en|ceros el unos todos paratos electrónicos",
+   "etiquetas": [
+    "(om)",
+    "00",
+    "000000:",
+    "200"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/003.jpg)",
+   "color": "#364162"
+  },
+  {
+   "n": 4,
+   "inicio": 10.93,
+   "dura": 0.23,
+   "transicion_entrada": "entrar con zoom",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.646
+    ],
+    "x_px": [
+     0,
+     300
+    ],
+    "y_px": [
+     0,
+     578
+    ],
+    "giro_grados": [
+     0,
+     -0.2
+    ],
+    "ease": "—",
+    "sacudida": false
+   },
+   "eventos": [],
+   "sfx": [],
+   "texto_voz": "foquitos",
+   "etiquetas": [
+    "060000"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/004.jpg)",
+   "color": "#444E6B"
+  },
+  {
+   "n": 5,
+   "inicio": 11.17,
+   "dura": 2.2,
+   "transicion_entrada": "entrar con zoom",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.0,
+     0.853
+    ],
+    "x_px": [
+     0,
+     -57
+    ],
+    "y_px": [
+     0,
+     -119
+    ],
+    "giro_grados": [
+     0,
+     -0.0
+    ],
+    "ease": "none",
+    "sacudida": true
+   },
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 11.44,
+     "sonido": "pop"
+    },
+    {
+     "t": 11.9,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "foquitos que se apagan encienden",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/005.jpg)",
+   "color": "#35456C"
+  },
+  {
+   "n": 6,
+   "inicio": 13.37,
+   "dura": 2.23,
+   "transicion_entrada": "fundido",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.0,
+     0.362
+    ],
+    "x_px": [
+     0,
+     -615
+    ],
+    "y_px": [
+     0,
+     -786
+    ],
+    "giro_grados": [
+     0,
+     -6.8
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 14.6,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 13.74,
+     "sonido": "pop"
+    },
+    {
+     "t": 13.94,
+     "sonido": "pop"
+    },
+    {
+     "t": 14.1,
+     "sonido": "tick"
+    },
+    {
+     "t": 14.58,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 14.72,
+     "sonido": "pop"
+    }
+   ],
+   "texto_voz": "lalaprieta menos.",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/006.jpg)",
+   "color": "#293D6E"
+  },
+  {
+   "n": 7,
+   "inicio": 15.6,
+   "dura": 2.87,
+   "transicion_entrada": "fundido",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.0,
+     0.262
+    ],
+    "x_px": [
+     0,
+     -631
+    ],
+    "y_px": [
+     0,
+     -283
+    ],
+    "giro_grados": [
+     0,
+     -6.3
+    ],
+    "ease": "none",
+    "sacudida": true
+   },
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 15.7,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 15.94,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 16.16,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 16.8,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 17.16,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "Luego la en ondas delradio.]",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/007.jpg)",
+   "color": "#1F2951"
+  },
+  {
+   "n": 8,
+   "inicio": 18.47,
+   "dura": 4.63,
+   "transicion_entrada": "barrido",
+   "camara": {
+    "mov": "deriva leve",
+    "escala": [
+     1.0,
+     0.976
+    ],
+    "x_px": [
+     0,
+     -13
+    ],
+    "y_px": [
+     0,
+     -22
+    ],
+    "giro_grados": [
+     0,
+     -0.5
+    ],
+    "ease": "none",
+    "sacudida": false
+   },
+   "eventos": [
+    {
+     "t": 20.8,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 21.23,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 21.87,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 22.87,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 19.32,
+     "sonido": "tick"
+    },
+    {
+     "t": 20.5,
+     "sonido": "tick"
+    },
+    {
+     "t": 20.74,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 21.44,
+     "sonido": "tick"
+    },
+    {
+     "t": 22.88,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "ifi,",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/008.jpg)",
+   "color": "#2B2A37"
+  },
+  {
+   "n": 9,
+   "inicio": 23.1,
+   "dura": 2.57,
+   "transicion_entrada": "fundido",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.487
+    ],
+    "x_px": [
+     0,
+     316
+    ],
+    "y_px": [
+     0,
+     315
+    ],
+    "giro_grados": [
+     0,
+     0.4
+    ],
+    "ease": "power2.in",
+    "sacudida": false
+   },
+   "eventos": [
+    {
+     "t": 23.57,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 24.03,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 24.77,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [],
+   "texto_voz": "",
+   "etiquetas": [
+    "FIA",
+    "ee"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/009.jpg)",
+   "color": "#4D3F44"
+  },
+  {
+   "n": 10,
+   "inicio": 25.67,
+   "dura": 0.4,
+   "transicion_entrada": "entrar con zoom",
+   "camara": {
+    "mov": "paneo horizontal",
+    "escala": [
+     1.0,
+     1.263
+    ],
+    "x_px": [
+     0,
+     -1030
+    ],
+    "y_px": [
+     0,
+     338
+    ],
+    "giro_grados": [
+     0,
+     -20.8
+    ],
+    "ease": "—",
+    "sacudida": true
+   },
+   "eventos": [],
+   "sfx": [],
+   "texto_voz": "usan las mismas ondas.",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/010.jpg)",
+   "color": "#634F52"
+  },
+  {
+   "n": 11,
+   "inicio": 26.07,
+   "dura": 0.23,
+   "transicion_entrada": "fundido",
+   "camara": {
+    "mov": "paneo horizontal",
+    "escala": [
+     1.0,
+     0.919
+    ],
+    "x_px": [
+     0,
+     371
+    ],
+    "y_px": [
+     0,
+     -23
+    ],
+    "giro_grados": [
+     0,
+     7.3
+    ],
+    "ease": "—",
+    "sacudida": false
+   },
+   "eventos": [],
+   "sfx": [],
+   "texto_voz": "",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/011.jpg)",
+   "color": "#101024"
+  },
+  {
+   "n": 12,
+   "inicio": 26.3,
+   "dura": 2.03,
+   "transicion_entrada": "barrido",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.0,
+     0.671
+    ],
+    "x_px": [
+     0,
+     -397
+    ],
+    "y_px": [
+     0,
+     -156
+    ],
+    "giro_grados": [
+     0,
+     -22.5
+    ],
+    "ease": "none",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 27.87,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 26.54,
+     "sonido": "pop"
+    },
+    {
+     "t": 26.78,
+     "sonido": "pop"
+    },
+    {
+     "t": 27.26,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 27.62,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 27.98,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "que tu-eancion",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/012.jpg)",
+   "color": "#0D102D"
+  },
+  {
+   "n": 13,
+   "inicio": 28.33,
+   "dura": 7.77,
+   "transicion_entrada": "fundido",
+   "camara": {
+    "mov": "paneo horizontal",
+    "escala": [
+     1.0,
+     0.317
+    ],
+    "x_px": [
+     0,
+     2602
+    ],
+    "y_px": [
+     0,
+     -1393
+    ],
+    "giro_grados": [
+     0,
+     9.5
+    ],
+    "ease": "none",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 33.63,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 35.83,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 28.52,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 29.02,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 29.62,
+     "sonido": "pop"
+    },
+    {
+     "t": 30.92,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 32.98,
+     "sonido": "tick"
+    },
+    {
+     "t": 34.56,
+     "sonido": "tick"
+    },
+    {
+     "t": 35.46,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 35.84,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "entre 79 canales, hasta 1.600 veces por segundo. cómo saben tus audífonos Cuando los conectas,",
+   "etiquetas": [
+    "(wifi",
+    "1.600",
+    "79",
+    "canales"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/013.jpg)",
+   "color": "#151931"
+  },
+  {
+   "n": 14,
+   "inicio": 36.1,
+   "dura": 10.67,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "deriva leve",
+    "escala": [
+     1.0,
+     1.002
+    ],
+    "x_px": [
+     0,
+     -98
+    ],
+    "y_px": [
+     0,
+     27
+    ],
+    "giro_grados": [
+     0,
+     -2.7
+    ],
+    "ease": "none",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 36.83,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 37.93,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 36.14,
+     "sonido": "tick"
+    },
+    {
+     "t": 36.54,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 36.94,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 37.32,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 38.26,
+     "sonido": "pop"
+    },
+    {
+     "t": 38.58,
+     "sonido": "tick"
+    },
+    {
+     "t": 39.42,
+     "sonido": "tick"
+    },
+    {
+     "t": 40.04,
+     "sonido": "tick"
+    },
+    {
+     "t": 40.26,
+     "sonido": "tick"
+    },
+    {
+     "t": 42.76,
+     "sonido": "tick"
+    },
+    {
+     "t": 43.22,
+     "sonido": "pop"
+    },
+    {
+     "t": 45.0,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 45.66,
+     "sonido": "tick"
+    },
+    {
+     "t": 45.94,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "celular les pasa su reloj código, dos calculan el mismo saltos. Por eso saltan justo al ritmo, casi nunca se corta.",
+   "etiquetas": [
+    "(40",
+    "37",
+    "42",
+    "7-3F-9C"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/014.jpg)",
+   "color": "#111328"
+  },
+  {
+   "n": 15,
+   "inicio": 46.77,
+   "dura": 13.07,
+   "transicion_entrada": "paso por negro",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.0,
+     0.424
+    ],
+    "x_px": [
+     0,
+     -492
+    ],
+    "y_px": [
+     0,
+     208
+    ],
+    "giro_grados": [
+     0,
+     2.0
+    ],
+    "ease": "none",
+    "sacudida": false
+   },
+   "eventos": [
+    {
+     "t": 47.53,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 49.3,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 49.73,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 50.23,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 50.67,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 51.1,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 51.63,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 54.1,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 54.53,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 55.0,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 55.57,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 56.03,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 56.8,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 57.4,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 57.83,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 58.27,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 58.7,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 59.2,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 46.82,
+     "sonido": "pop"
+    },
+    {
+     "t": 47.04,
+     "sonido": "tick"
+    },
+    {
+     "t": 47.68,
+     "sonido": "pop"
+    },
+    {
+     "t": 51.14,
+     "sonido": "tick"
+    },
+    {
+     "t": 52.24,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 55.08,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "Dentro, 01 un chip ceros 11 unos electricidao imán empuja una mile veces Esé de tu déntro lo que escu as.",
+   "etiquetas": [
+    "22%,",
+    "29%",
+    "34",
+    "65"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/015.jpg)",
+   "color": "#53414B"
+  },
+  {
+   "n": 16,
+   "inicio": 59.83,
+   "dura": 12.8,
+   "transicion_entrada": "barrido",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.305
+    ],
+    "x_px": [
+     0,
+     89
+    ],
+    "y_px": [
+     0,
+     326
+    ],
+    "giro_grados": [
+     0,
+     -12.0
+    ],
+    "ease": "none",
+    "sacudida": false
+   },
+   "eventos": [
+    {
+     "t": 60.67,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 67.53,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 68.1,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 60.14,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 61.06,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 61.96,
+     "sonido": "tick"
+    },
+    {
+     "t": 63.3,
+     "sonido": "pop"
+    },
+    {
+     "t": 63.72,
+     "sonido": "pop"
+    },
+    {
+     "t": 63.94,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 64.88,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 65.56,
+     "sonido": "pop"
+    },
+    {
+     "t": 67.24,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 67.36,
+     "sonido": "pop"
+    },
+    {
+     "t": 67.6,
+     "sonido": "pop"
+    },
+    {
+     "t": 69.0,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 69.72,
+     "sonido": "tick"
+    },
+    {
+     "t": 70.94,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "Así que sí hay un está hecho hasta 1.600 veces segundo. Si te gustó la información, ¿qué otra gustaría resolvamos en el próximo",
+   "etiquetas": [
+    "ES"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/016.jpg)",
+   "color": "#202648"
+  }
+ ]
+}

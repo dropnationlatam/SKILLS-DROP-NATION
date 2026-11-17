@@ -1,0 +1,1095 @@
+{
+ "titulo": "¿Por qué se te duerme la pierna y luego sientes hormigas Tu pierna no está dormida- está descone.mp4",
+ "tipo": "referencia",
+ "duracion_s": 90.53,
+ "planos": [
+  {
+   "n": 1,
+   "inicio": 0.0,
+   "dura": 7.2,
+   "transicion_entrada": "inicio",
+   "camara": {
+    "mov": "giro",
+    "escala": [
+     1.0,
+     0.816
+    ],
+    "x_px": [
+     0,
+     73
+    ],
+    "y_px": [
+     0,
+     230
+    ],
+    "giro_grados": [
+     0,
+     -17.4
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 0.57,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 1.27,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 6.33,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 0.86,
+     "sonido": "tick"
+    },
+    {
+     "t": 5.16,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 5.76,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 6.88,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "¿Por na, luego Si ninaran sit caminaran mil Tu pierna no está",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/001.jpg)",
+   "color": "#45244B"
+  },
+  {
+   "n": 2,
+   "inicio": 7.2,
+   "dura": 10.7,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.0,
+     0.532
+    ],
+    "x_px": [
+     0,
+     -452
+    ],
+    "y_px": [
+     0,
+     -694
+    ],
+    "giro_grados": [
+     0,
+     -1.0
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 9.2,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 11.27,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 11.7,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 7.78,
+     "sonido": "tick"
+    },
+    {
+     "t": 8.68,
+     "sonido": "pop"
+    },
+    {
+     "t": 10.74,
+     "sonido": "tick"
+    },
+    {
+     "t": 10.98,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 12.54,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 14.18,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 14.58,
+     "sonido": "tick"
+    },
+    {
+     "t": 15.98,
+     "sonido": "tick"
+    },
+    {
+     "t": 16.14,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 16.88,
+     "sonido": "pop"
+    }
+   ],
+   "texto_voz": "estáldesconectada. Dentro de tu nervio: cerebro siente pie. sus mensajes viajan ciento",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/002.jpg)",
+   "color": "#4D2554"
+  },
+  {
+   "n": 3,
+   "inicio": 17.9,
+   "dura": 2.3,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "paneo horizontal",
+    "escala": [
+     1.0,
+     1.004
+    ],
+    "x_px": [
+     0,
+     152
+    ],
+    "y_px": [
+     0,
+     -8
+    ],
+    "giro_grados": [
+     0,
+     1.2
+    ],
+    "ease": "none",
+    "sacudida": false
+   },
+   "eventos": [
+    {
+     "t": 18.6,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 19.2,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 18.82,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "por hora: más la carretera.",
+   "etiquetas": [
+    "ay"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/003.jpg)",
+   "color": "#2E2140"
+  },
+  {
+   "n": 4,
+   "inicio": 20.2,
+   "dura": 10.6,
+   "transicion_entrada": "barrido",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.227
+    ],
+    "x_px": [
+     0,
+     301
+    ],
+    "y_px": [
+     0,
+     316
+    ],
+    "giro_grados": [
+     0,
+     0.1
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 22.3,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 26.9,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 27.4,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 30.33,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 20.3,
+     "sonido": "tick"
+    },
+    {
+     "t": 20.48,
+     "sonido": "tick"
+    },
+    {
+     "t": 21.26,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 21.88,
+     "sonido": "pop"
+    },
+    {
+     "t": 22.16,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 22.68,
+     "sonido": "pop"
+    },
+    {
+     "t": 23.1,
+     "sonido": "tick"
+    },
+    {
+     "t": 27.52,
+     "sonido": "tick"
+    },
+    {
+     "t": 27.7,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "Pero cuando cruzas las piernas, ese rodilla, justo tiene protección. Apretado, oxígeno y.se queda callado,",
+   "etiquetas": [
+    "pe"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/004.jpg)",
+   "color": "#6A4062"
+  },
+  {
+   "n": 5,
+   "inicio": 30.8,
+   "dura": 2.5,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "quieto",
+    "escala": [
+     1.0,
+     0.997
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     -8
+    ],
+    "giro_grados": [
+     0,
+     0.0
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 31.4,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 32.03,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 30.82,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 31.12,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 32.04,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "como una ya 2cha agua.",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/005.jpg)",
+   "color": "#34383A"
+  },
+  {
+   "n": 6,
+   "inicio": 33.3,
+   "dura": 9.17,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.665
+    ],
+    "x_px": [
+     0,
+     403
+    ],
+    "y_px": [
+     0,
+     768
+    ],
+    "giro_grados": [
+     0,
+     -5.2
+    ],
+    "ease": "power2.in",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 39.6,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 40.2,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 41.57,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 33.54,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 36.48,
+     "sonido": "tick"
+    },
+    {
+     "t": 37.62,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 39.24,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 39.94,
+     "sonido": "tick"
+    },
+    {
+     "t": 40.3,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 40.86,
+     "sonido": "pop"
+    },
+    {
+     "t": 41.04,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 41.74,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "Tu cerebro le habla otra Cuando descruzas el cable se suelta",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/006.jpg)",
+   "color": "#4E2A57"
+  },
+  {
+   "n": 7,
+   "inicio": 42.47,
+   "dura": 8.6,
+   "transicion_entrada": "fundido",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.0,
+     0.75
+    ],
+    "x_px": [
+     0,
+     -39
+    ],
+    "y_px": [
+     0,
+     186
+    ],
+    "giro_grados": [
+     0,
+     -6.3
+    ],
+    "ease": "none",
+    "sacudida": false
+   },
+   "eventos": [
+    {
+     "t": 44.37,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 44.83,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 48.7,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 49.6,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 43.0,
+     "sonido": "tick"
+    },
+    {
+     "t": 45.86,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 46.76,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 47.1,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "ierta Pero despierta confundido: dispara mensajes lados sin que nada lo tu cerebro piquetes",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/007.jpg)",
+   "color": "#502D52"
+  },
+  {
+   "n": 8,
+   "inicio": 51.07,
+   "dura": 2.03,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "deriva leve",
+    "escala": [
+     1.0,
+     0.981
+    ],
+    "x_px": [
+     0,
+     -9
+    ],
+    "y_px": [
+     0,
+     -19
+    ],
+    "giro_grados": [
+     0,
+     0.5
+    ],
+    "ease": "none",
+    "sacudida": false
+   },
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 51.08,
+     "sonido": "pop"
+    },
+    {
+     "t": 51.2,
+     "sonido": "tick"
+    },
+    {
+     "t": 51.4,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 52.02,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 52.68,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "los",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/008.jpg)",
+   "color": "#19172A"
+  },
+  {
+   "n": 9,
+   "inicio": 53.1,
+   "dura": 1.8,
+   "transicion_entrada": "fundido",
+   "camara": {
+    "mov": "quieto",
+    "escala": [
+     1.0,
+     1.006
+    ],
+    "x_px": [
+     0,
+     7
+    ],
+    "y_px": [
+     0,
+     9
+    ],
+    "giro_grados": [
+     0,
+     -0.4
+    ],
+    "ease": "none",
+    "sacudida": false
+   },
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 53.52,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "ez",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/009.jpg)",
+   "color": "#6E5863"
+  },
+  {
+   "n": 10,
+   "inicio": 54.9,
+   "dura": 6.7,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "giro",
+    "escala": [
+     1.0,
+     0.605
+    ],
+    "x_px": [
+     0,
+     -254
+    ],
+    "y_px": [
+     0,
+     322
+    ],
+    "giro_grados": [
+     0,
+     -29.8
+    ],
+    "ease": "none",
+    "sacudida": false
+   },
+   "eventos": [
+    {
+     "t": 58.27,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 56.38,
+     "sonido": "pop"
+    },
+    {
+     "t": 56.8,
+     "sonido": "tick"
+    },
+    {
+     "t": 57.84,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 59.18,
+     "sonido": "tick"
+    },
+    {
+     "t": 59.72,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "Lo que ayuda te, mueve el circulos los uelvas sentir pie.",
+   "etiquetas": [
+    "La",
+    "vs"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/010.jpg)",
+   "color": "#4A264B"
+  },
+  {
+   "n": 11,
+   "inicio": 61.6,
+   "dura": 3.23,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.0,
+     0.738
+    ],
+    "x_px": [
+     0,
+     -149
+    ],
+    "y_px": [
+     0,
+     15
+    ],
+    "giro_grados": [
+     0,
+     -17.3
+    ],
+    "ease": "none",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 62.3,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 62.02,
+     "sonido": "tick"
+    },
+    {
+     "t": 62.16,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 62.72,
+     "sonido": "tick"
+    },
+    {
+     "t": 64.54,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "te tes dónde",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/011.jpg)",
+   "color": "#4D2A51"
+  },
+  {
+   "n": 12,
+   "inicio": 64.83,
+   "dura": 1.33,
+   "transicion_entrada": "entrar con zoom",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.095
+    ],
+    "x_px": [
+     0,
+     63
+    ],
+    "y_px": [
+     0,
+     28
+    ],
+    "giro_grados": [
+     0,
+     0.5
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "eventos": [],
+   "sfx": [],
+   "texto_voz": "edes doblar el tobillo.",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/012.jpg)",
+   "color": "#582F52"
+  },
+  {
+   "n": 13,
+   "inicio": 66.17,
+   "dura": 5.57,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "quieto",
+    "escala": [
+     1.0,
+     0.988
+    ],
+    "x_px": [
+     0,
+     -11
+    ],
+    "y_px": [
+     0,
+     -6
+    ],
+    "giro_grados": [
+     0,
+     0.0
+    ],
+    "ease": "none",
+    "sacudida": false
+   },
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 66.32,
+     "sonido": "tick"
+    },
+    {
+     "t": 66.84,
+     "sonido": "tick"
+    },
+    {
+     "t": 67.12,
+     "sonido": "tick"
+    },
+    {
+     "t": 67.88,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 69.56,
+     "sonido": "tick"
+    },
+    {
+     "t": 69.72,
+     "sonido": "tick"
+    },
+    {
+     "t": 69.84,
+     "sonido": "tick"
+    },
+    {
+     "t": 70.42,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 71.52,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "Mo 1to: cambia seguido, le nu ¡te al menos",
+   "etiquetas": [
+    "12",
+    "Se"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/013.jpg)",
+   "color": "#5D3960"
+  },
+  {
+   "n": 14,
+   "inicio": 71.73,
+   "dura": 0.83,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "quieto",
+    "escala": [
+     1.0,
+     0.99
+    ],
+    "x_px": [
+     0,
+     -6
+    ],
+    "y_px": [
+     0,
+     -8
+    ],
+    "giro_grados": [
+     0,
+     -0.0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "eventos": [],
+   "sfx": [],
+   "texto_voz": "‘hora.",
+   "etiquetas": [
+    "cada",
+    "hora"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/014.jpg)",
+   "color": "#683F68"
+  },
+  {
+   "n": 15,
+   "inicio": 72.57,
+   "dura": 4.4,
+   "transicion_entrada": "barrido",
+   "camara": {
+    "mov": "giro",
+    "escala": [
+     1.0,
+     0.961
+    ],
+    "x_px": [
+     0,
+     11
+    ],
+    "y_px": [
+     0,
+     13
+    ],
+    "giro_grados": [
+     0,
+     -4.6
+    ],
+    "ease": "none",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 76.0,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 76.47,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 72.82,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 75.2,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 76.9,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "Si se te duerme muy seguido, sin razón,",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/015.jpg)",
+   "color": "#4F2E51"
+  },
+  {
+   "n": 16,
+   "inicio": 76.97,
+   "dura": 4.97,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     2.488
+    ],
+    "x_px": [
+     0,
+     525
+    ],
+    "y_px": [
+     0,
+     642
+    ],
+    "giro_grados": [
+     0,
+     -12.0
+    ],
+    "ease": "power2.in",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 79.3,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 77.12,
+     "sonido": "pop"
+    },
+    {
+     "t": 79.04,
+     "sonido": "tick"
+    },
+    {
+     "t": 79.62,
+     "sonido": "tick"
+    },
+    {
+     "t": 80.16,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "Asi Así que tu pierna durmió: se ormigas son",
+   "etiquetas": [
+    "209",
+    "TR",
+    "oF"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/016.jpg)",
+   "color": "#4F2F55"
+  },
+  {
+   "n": 17,
+   "inicio": 81.93,
+   "dura": 1.57,
+   "transicion_entrada": "fundido",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.0,
+     0.744
+    ],
+    "x_px": [
+     0,
+     -261
+    ],
+    "y_px": [
+     0,
+     -120
+    ],
+    "giro_grados": [
+     0,
+     0.4
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 83.48,
+     "sonido": "pop"
+    }
+   ],
+   "texto_voz": "volviendo",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/017.jpg)",
+   "color": "#522B54"
+  },
+  {
+   "n": 18,
+   "inicio": 83.5,
+   "dura": 6.9,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "deriva leve",
+    "escala": [
+     1.0,
+     0.985
+    ],
+    "x_px": [
+     0,
+     -32
+    ],
+    "y_px": [
+     0,
+     53
+    ],
+    "giro_grados": [
+     0,
+     -0.5
+    ],
+    "ease": "sine.inOut",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 87.07,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 87.67,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 83.84,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 84.44,
+     "sonido": "tick"
+    },
+    {
+     "t": 84.62,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 85.34,
+     "sonido": "pop"
+    },
+    {
+     "t": 86.2,
+     "sonido": "tick"
+    },
+    {
+     "t": 86.32,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 86.76,
+     "sonido": "tick"
+    },
+    {
+     "t": 86.98,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 88.4,
+     "sonido": "tick"
+    },
+    {
+     "t": 88.64,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 88.8,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "ti se te duerme la pierna ellbrazo?] Cuéntanos en los comentarios, sigue ARFISIO",
+   "etiquetas": [
+    "al",
+    "brazo,",
+    "dormir!",
+    "¡El"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/018.jpg)",
+   "color": "#512958"
+  }
+ ]
+}
