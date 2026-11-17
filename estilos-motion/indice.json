@@ -1,14 +1,485 @@
 {
-  "repo": "dropnationlatam/SKILLS-DROP-NATION",
-  "actualizado": "2026-11-17",
-  "estilos": [
+ "repo": "dropnationlatam/SKILLS-DROP-NATION",
+ "actualizado": "2026-11-17",
+ "estilos": [
+  {
+   "id": "explicador-ilustrado",
+   "nombre": "Explicador Ilustrado",
+   "version": "1.1.0",
+   "descripcion": "Ilustración semirrealista sobre fondo oscuro con neón, cámara que entra 'por dentro', subtítulos karaoke arriba con caja azul en la palabra clave, muchos SFX y sin música.",
+   "formato": "9:16 · 30 fps · 60-90 s",
+   "demo": "explicador-ilustrado/ejemplo/demo.mp4",
+   "archivos": [
     {
-      "id": "explicador-ilustrado",
-      "nombre": "Explicador Ilustrado",
-      "version": "1.1.0",
-      "descripcion": "Ilustración semirrealista sobre fondo oscuro con neón, cámara que entra 'por dentro', subtítulos karaoke arriba con caja azul en la palabra clave, muchos SFX y sin música.",
-      "formato": "9:16 · 30 fps · 60-90 s",
-      "demo": "explicador-ilustrado/ejemplo/demo.mp4"
+     "ruta": "Estudio/Informe de extracción.md",
+     "bytes": 4572,
+     "huella": "d3b647f693b647bc",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/Lectura.md",
+     "bytes": 3557,
+     "huella": "51fa7b9495974e14",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/Prueba de clon (demo vs ref4).md",
+     "bytes": 1058,
+     "huella": "1fe2e11728a025e8",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/Prueba de clon - lado a lado.jpg",
+     "bytes": 189402,
+     "huella": "0237671b206ead1e",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/estilo.borrador.json",
+     "bytes": 6973,
+     "huella": "63ef97bbc3f61dbc",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/gramatica.json",
+     "bytes": 2244,
+     "huella": "64d97d940e12c476",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref1_De_adolescente_te_CORTABAS_las/datos.json",
+     "bytes": 35945,
+     "huella": "ea1af24a858a4094",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref1_De_adolescente_te_CORTABAS_las/eventos.jpg",
+     "bytes": 477744,
+     "huella": "757b7a31fa66e33e",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref1_De_adolescente_te_CORTABAS_las/gancho.jpg",
+     "bytes": 336434,
+     "huella": "66781ebcaa0f2c0f",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref1_De_adolescente_te_CORTABAS_las/linea_tiempo.png",
+     "bytes": 13042,
+     "huella": "4393b6d0bd03f74c",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref1_De_adolescente_te_CORTABAS_las/mapa_actividad.jpg",
+     "bytes": 61500,
+     "huella": "053598864d012700",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref1_De_adolescente_te_CORTABAS_las/planos.jpg",
+     "bytes": 288280,
+     "huella": "63e412022200bfea",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref1_De_adolescente_te_CORTABAS_las/storyboard.json",
+     "bytes": 13568,
+     "huella": "82b8c1fb13682504",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref1_De_adolescente_te_CORTABAS_las/storyboard.md",
+     "bytes": 2680,
+     "huella": "7342857102979101",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref1_De_adolescente_te_CORTABAS_las/subtitulos.jpg",
+     "bytes": 254740,
+     "huella": "5937678babe405f3",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref2_Las_legañas_no_te_salen/datos.json",
+     "bytes": 28318,
+     "huella": "4e1fc53ef1cbd13b",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref2_Las_legañas_no_te_salen/eventos.jpg",
+     "bytes": 238478,
+     "huella": "b58ef8bcfa0774fa",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref2_Las_legañas_no_te_salen/gancho.jpg",
+     "bytes": 199430,
+     "huella": "e7e188d2c64396f2",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref2_Las_legañas_no_te_salen/linea_tiempo.png",
+     "bytes": 11284,
+     "huella": "2c7f6f974b296ef7",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref2_Las_legañas_no_te_salen/mapa_actividad.jpg",
+     "bytes": 46810,
+     "huella": "89a574f735ab7f8f",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref2_Las_legañas_no_te_salen/planos.jpg",
+     "bytes": 273857,
+     "huella": "1e9a9249606a4a25",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref2_Las_legañas_no_te_salen/storyboard.json",
+     "bytes": 11372,
+     "huella": "27bcbce198668e4d",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref2_Las_legañas_no_te_salen/storyboard.md",
+     "bytes": 2503,
+     "huella": "a6b7358bc71173e0",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref2_Las_legañas_no_te_salen/subtitulos.jpg",
+     "bytes": 287173,
+     "huella": "4066c4acb6f54c03",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref3_Alguna_vez_te_preguntaste_cómo/datos.json",
+     "bytes": 40936,
+     "huella": "07f0702e411cd5f8",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref3_Alguna_vez_te_preguntaste_cómo/eventos.jpg",
+     "bytes": 536826,
+     "huella": "3da36098cc570897",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref3_Alguna_vez_te_preguntaste_cómo/gancho.jpg",
+     "bytes": 258980,
+     "huella": "5511c65a13ee32dd",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref3_Alguna_vez_te_preguntaste_cómo/linea_tiempo.png",
+     "bytes": 12204,
+     "huella": "7d976eb29ba76cb5",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref3_Alguna_vez_te_preguntaste_cómo/mapa_actividad.jpg",
+     "bytes": 68208,
+     "huella": "cdd63e2233c52f46",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref3_Alguna_vez_te_preguntaste_cómo/planos.jpg",
+     "bytes": 339458,
+     "huella": "f2808b3d560f2393",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref3_Alguna_vez_te_preguntaste_cómo/storyboard.json",
+     "bytes": 15370,
+     "huella": "df6f81c8a49306d9",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref3_Alguna_vez_te_preguntaste_cómo/storyboard.md",
+     "bytes": 3182,
+     "huella": "cbc8d688d9296047",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref3_Alguna_vez_te_preguntaste_cómo/subtitulos.jpg",
+     "bytes": 270847,
+     "huella": "669fc8467ecaa813",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref4_Por_qué_se_te_duerme/datos.json",
+     "bytes": 39701,
+     "huella": "a06303a34c9cd73f",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref4_Por_qué_se_te_duerme/eventos.jpg",
+     "bytes": 258707,
+     "huella": "af13b90adb179086",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref4_Por_qué_se_te_duerme/gancho.jpg",
+     "bytes": 161936,
+     "huella": "6d63e7908fee001a",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref4_Por_qué_se_te_duerme/linea_tiempo.png",
+     "bytes": 12878,
+     "huella": "ea790d02ea59b4d9",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref4_Por_qué_se_te_duerme/mapa_actividad.jpg",
+     "bytes": 41405,
+     "huella": "c6e26d3c62319d76",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref4_Por_qué_se_te_duerme/planos.jpg",
+     "bytes": 280489,
+     "huella": "164f629474fcec03",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref4_Por_qué_se_te_duerme/storyboard.json",
+     "bytes": 16039,
+     "huella": "1e618d2a3c07ac97",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref4_Por_qué_se_te_duerme/storyboard.md",
+     "bytes": 3577,
+     "huella": "22a8c7ca43043ac0",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/ref4_Por_qué_se_te_duerme/subtitulos.jpg",
+     "bytes": 220085,
+     "huella": "3a656b5fd5154c08",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Estudio/resumen.json",
+     "bytes": 3891,
+     "huella": "81f3c70cc32b89af",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Guía de estilo.md",
+     "bytes": 9250,
+     "huella": "a798ce07a1c20a95",
+     "tipo": "base"
+    },
+    {
+     "ruta": "Referencias/ref1 - De adolescente te cortabas las cejas.mp4",
+     "bytes": 6901260,
+     "huella": "36e0347c39215ff5",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Referencias/ref2 - Las legañas no te salen solo de noche,.mp4",
+     "bytes": 8378221,
+     "huella": "984d099e52c1748a",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Referencias/ref3 - Alguna vez te preguntaste cómo llega la.mp4",
+     "bytes": 9784467,
+     "huella": "a320455b57ae0933",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Referencias/ref4 - Por qué se te duerme la pierna y luego.mp4",
+     "bytes": 7216911,
+     "huella": "e82eca089ed89362",
+     "tipo": "completo"
+    },
+    {
+     "ruta": "Storyboards/puntaje.md",
+     "bytes": 2891,
+     "huella": "774db582c38760f5",
+     "tipo": "base"
+    },
+    {
+     "ruta": "Storyboards/sb_1_fiel.json",
+     "bytes": 23992,
+     "huella": "1a5ae2605aee992e",
+     "tipo": "base"
+    },
+    {
+     "ruta": "Storyboards/sb_1_fiel.md",
+     "bytes": 4183,
+     "huella": "a26ace23d115d12e",
+     "tipo": "base"
+    },
+    {
+     "ruta": "Storyboards/sb_2_dinamica.json",
+     "bytes": 29405,
+     "huella": "3920a43be2cd970e",
+     "tipo": "base"
+    },
+    {
+     "ruta": "Storyboards/sb_2_dinamica.md",
+     "bytes": 5063,
+     "huella": "cfebe6a7fbe783e0",
+     "tipo": "base"
+    },
+    {
+     "ruta": "Storyboards/sb_3_cine.json",
+     "bytes": 20862,
+     "huella": "c5ec9d02fef26e59",
+     "tipo": "base"
+    },
+    {
+     "ruta": "Storyboards/sb_3_cine.md",
+     "bytes": 3826,
+     "huella": "22a97eacc7f1d4ed",
+     "tipo": "base"
+    },
+    {
+     "ruta": "ejemplo/demo.mp4",
+     "bytes": 6217285,
+     "huella": "0a803616c2cee902",
+     "tipo": "demo"
+    },
+    {
+     "ruta": "estilo.json",
+     "bytes": 7812,
+     "huella": "fa23a31c5aeac14e",
+     "tipo": "base"
+    },
+    {
+     "ruta": "plantilla/assets/estilo.css",
+     "bytes": 5084,
+     "huella": "1db46dfc8d97b0da",
+     "tipo": "base"
+    },
+    {
+     "ruta": "plantilla/assets/estilo.js",
+     "bytes": 10004,
+     "huella": "2dc4398be2ff2985",
+     "tipo": "base"
+    },
+    {
+     "ruta": "plantilla/assets/gsap.min.js",
+     "bytes": 73357,
+     "huella": "3d1bea374ab1b703",
+     "tipo": "base"
+    },
+    {
+     "ruta": "plantilla/assets/sfx/brillo.wav",
+     "bytes": 123520,
+     "huella": "a31676c5d3d50f84",
+     "tipo": "base"
+    },
+    {
+     "ruta": "plantilla/assets/sfx/burbuja.wav",
+     "bytes": 31796,
+     "huella": "fb1005403a5aa0f2",
+     "tipo": "base"
+    },
+    {
+     "ruta": "plantilla/assets/sfx/impacto.wav",
+     "bytes": 105884,
+     "huella": "350f5efc1b1585a5",
+     "tipo": "base"
+    },
+    {
+     "ruta": "plantilla/assets/sfx/pop.wav",
+     "bytes": 21212,
+     "huella": "05d767440a9281b1",
+     "tipo": "base"
+    },
+    {
+     "ruta": "plantilla/assets/sfx/pulso.wav",
+     "bytes": 61780,
+     "huella": "7f8a976cc93319df",
+     "tipo": "base"
+    },
+    {
+     "ruta": "plantilla/assets/sfx/tick.wav",
+     "bytes": 8864,
+     "huella": "e57e405fba7dc3e6",
+     "tipo": "base"
+    },
+    {
+     "ruta": "plantilla/assets/sfx/whoosh.wav",
+     "bytes": 79424,
+     "huella": "7488c153f7069949",
+     "tipo": "base"
+    },
+    {
+     "ruta": "plantilla/assets/sfx/whoosh_corto.wav",
+     "bytes": 44144,
+     "huella": "aac7db45a1ea3f44",
+     "tipo": "base"
+    },
+    {
+     "ruta": "plantilla/hyperframes.json",
+     "bytes": 353,
+     "huella": "35a6d4ea79ebe911",
+     "tipo": "base"
+    },
+    {
+     "ruta": "plantilla/index.html",
+     "bytes": 12484,
+     "huella": "f0bbb13140040335",
+     "tipo": "base"
+    },
+    {
+     "ruta": "plantilla/package.json",
+     "bytes": 289,
+     "huella": "614a9eecc0c9b9e6",
+     "tipo": "base"
     }
-  ]
+   ],
+   "peso": {
+    "base": 685479,
+    "demo": 6217285,
+    "completo": 37656542
+   }
+  }
+ ],
+ "herramientas": [
+  {
+   "ruta": "Proceso de extracción.md",
+   "bytes": 11228,
+   "huella": "51fef9529228b5eb"
+  },
+  {
+   "ruta": "comparar.py",
+   "bytes": 4832,
+   "huella": "90a66b4760b01cf4"
+  },
+  {
+   "ruta": "extraer_estilo.py",
+   "bytes": 54353,
+   "huella": "5d6c09700825f858"
+  },
+  {
+   "ruta": "generar_sfx.py",
+   "bytes": 2995,
+   "huella": "24ea1ebb7853f471"
+  },
+  {
+   "ruta": "importar_estilo.py",
+   "bytes": 9471,
+   "huella": "145c717088c8328d"
+  },
+  {
+   "ruta": "requirements.txt",
+   "bytes": 79,
+   "huella": "725c984cb0cc83f0"
+  },
+  {
+   "ruta": "storyboard.py",
+   "bytes": 24283,
+   "huella": "80ff2c7526e269cc"
+  }
+ ],
+ "formato_indice": 2
 }
