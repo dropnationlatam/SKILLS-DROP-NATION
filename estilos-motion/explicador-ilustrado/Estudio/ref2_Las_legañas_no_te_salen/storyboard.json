@@ -1,0 +1,777 @@
+{
+ "titulo": "Las legañas no te salen solo de noche, lo que pasa es que de noche nadie las tira.🌑Síguenos y a.mp4",
+ "tipo": "referencia",
+ "duracion_s": 65.94,
+ "planos": [
+  {
+   "n": 1,
+   "inicio": 0.0,
+   "dura": 4.1,
+   "transicion_entrada": "inicio",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.0,
+     0.523
+    ],
+    "x_px": [
+     0,
+     -512
+    ],
+    "y_px": [
+     0,
+     -749
+    ],
+    "giro_grados": [
+     0,
+     11.4
+    ],
+    "ease": "sine.inOut",
+    "sacudida": true
+   },
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 0.42,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 2.26,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 2.68,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "¿Qué ermes",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/001.jpg)",
+   "color": "#4A4050"
+  },
+  {
+   "n": 2,
+   "inicio": 4.1,
+   "dura": 6.2,
+   "transicion_entrada": "fundido",
+   "camara": {
+    "mov": "giro",
+    "escala": [
+     1.0,
+     0.383
+    ],
+    "x_px": [
+     0,
+     77
+    ],
+    "y_px": [
+     0,
+     372
+    ],
+    "giro_grados": [
+     0,
+     53.4
+    ],
+    "ease": "none",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 6.97,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 4.2,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 4.34,
+     "sonido": "pop"
+    },
+    {
+     "t": 4.78,
+     "sonido": "pop"
+    },
+    {
+     "t": 8.58,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "ole pero tu sin enteres. está capa",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/002.jpg)",
+   "color": "#75584D"
+  },
+  {
+   "n": 3,
+   "inicio": 10.3,
+   "dura": 0.3,
+   "transicion_entrada": "entrar con zoom",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.52
+    ],
+    "x_px": [
+     0,
+     153
+    ],
+    "y_px": [
+     0,
+     400
+    ],
+    "giro_grados": [
+     0,
+     0.0
+    ],
+    "ease": "—",
+    "sacudida": false
+   },
+   "eventos": [],
+   "sfx": [],
+   "texto_voz": "",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/003.jpg)",
+   "color": "#444233"
+  },
+  {
+   "n": 4,
+   "inicio": 10.6,
+   "dura": 4.87,
+   "transicion_entrada": "fundido",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     3.188
+    ],
+    "x_px": [
+     0,
+     1783
+    ],
+    "y_px": [
+     0,
+     621
+    ],
+    "giro_grados": [
+     0,
+     3.5
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 11.16,
+     "sonido": "pop"
+    },
+    {
+     "t": 12.12,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 13.78,
+     "sonido": "pop"
+    },
+    {
+     "t": 14.1,
+     "sonido": "tick"
+    },
+    {
+     "t": 15.42,
+     "sonido": "pop"
+    }
+   ],
+   "texto_voz": "capa finísima de agua, UN POCO aceite por encima.",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/004.jpg)",
+   "color": "#586078"
+  },
+  {
+   "n": 5,
+   "inicio": 15.47,
+   "dura": 10.67,
+   "transicion_entrada": "barrido",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.0,
+     0.164
+    ],
+    "x_px": [
+     0,
+     -60
+    ],
+    "y_px": [
+     0,
+     -646
+    ],
+    "giro_grados": [
+     0,
+     -3.1
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "eventos": [
+    {
+     "t": 16.0,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 16.43,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 17.33,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 17.9,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 18.47,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 19.03,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 20.37,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 20.87,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 15.64,
+     "sonido": "pop"
+    },
+    {
+     "t": 16.06,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 18.34,
+     "sonido": "tick"
+    },
+    {
+     "t": 19.48,
+     "sonido": "tick"
+    },
+    {
+     "t": 20.58,
+     "sonido": "pop"
+    },
+    {
+     "t": 20.8,
+     "sonido": "pop"
+    },
+    {
+     "t": 20.96,
+     "sonido": "tick"
+    },
+    {
+     "t": 21.3,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 21.82,
+     "sonido": "pop"
+    },
+    {
+     "t": 26.08,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "ujeritos borde del párpado, entre pestañas. esa capa día atrapando re polvo muertas muert suciedad Pero cada vez que",
+   "etiquetas": [
+    "44"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/005.jpg)",
+   "color": "#5F4E41"
+  },
+  {
+   "n": 6,
+   "inicio": 26.13,
+   "dura": 1.5,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.345
+    ],
+    "x_px": [
+     0,
+     317
+    ],
+    "y_px": [
+     0,
+     337
+    ],
+    "giro_grados": [
+     0,
+     -2.1
+    ],
+    "ease": "power2.in",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 27.03,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 26.28,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 27.04,
+     "sonido": "tick"
+    },
+    {
+     "t": 27.22,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "el párpado",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/006.jpg)",
+   "color": "#71574B"
+  },
+  {
+   "n": 7,
+   "inicio": 27.63,
+   "dura": 1.0,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.304
+    ],
+    "x_px": [
+     0,
+     317
+    ],
+    "y_px": [
+     0,
+     294
+    ],
+    "giro_grados": [
+     0,
+     -0.9
+    ],
+    "ease": "none",
+    "sacudida": true
+   },
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 27.92,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "",
+   "etiquetas": [
+    "99"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/007.jpg)",
+   "color": "#745B53"
+  },
+  {
+   "n": 8,
+   "inicio": 28.63,
+   "dura": 1.57,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "deriva leve",
+    "escala": [
+     1.0,
+     1.023
+    ],
+    "x_px": [
+     0,
+     14
+    ],
+    "y_px": [
+     0,
+     29
+    ],
+    "giro_grados": [
+     0,
+     -1.5
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "eventos": [],
+   "sfx": [],
+   "texto_voz": "ojo...",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/008.jpg)",
+   "color": "#7B6059"
+  },
+  {
+   "n": 9,
+   "inicio": 30.2,
+   "dura": 2.6,
+   "transicion_entrada": "corte seco",
+   "camara": {
+    "mov": "quieto",
+    "escala": [
+     1.0,
+     0.999
+    ],
+    "x_px": [
+     0,
+     1
+    ],
+    "y_px": [
+     0,
+     -1
+    ],
+    "giro_grados": [
+     0,
+     0.1
+    ],
+    "ease": "none",
+    "sacudida": false
+   },
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 30.74,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 30.94,
+     "sonido": "pop"
+    },
+    {
+     "t": 31.42,
+     "sonido": "tick"
+    },
+    {
+     "t": 31.7,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/009.jpg)",
+   "color": "#1C2137"
+  },
+  {
+   "n": 10,
+   "inicio": 32.8,
+   "dura": 2.77,
+   "transicion_entrada": "barrido",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.0,
+     0.927
+    ],
+    "x_px": [
+     0,
+     19
+    ],
+    "y_px": [
+     0,
+     1
+    ],
+    "giro_grados": [
+     0,
+     -2.1
+    ],
+    "ease": "none",
+    "sacudida": false
+   },
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 32.96,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 33.74,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "aA ele",
+   "etiquetas": [
+    "dy",
+    "ee"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/010.jpg)",
+   "color": "#82655F"
+  },
+  {
+   "n": 11,
+   "inicio": 35.57,
+   "dura": 4.5,
+   "transicion_entrada": "fundido",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.0,
+     0.235
+    ],
+    "x_px": [
+     0,
+     -235
+    ],
+    "y_px": [
+     0,
+     -474
+    ],
+    "giro_grados": [
+     0,
+     4.8
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 36.03,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 36.6,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 35.68,
+     "sonido": "pop"
+    },
+    {
+     "t": 36.22,
+     "sonido": "pop"
+    },
+    {
+     "t": 36.44,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 37.6,
+     "sonido": "tick"
+    },
+    {
+     "t": 38.28,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 38.42,
+     "sonido": "pop"
+    },
+    {
+     "t": 38.74,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "Por eso, cuando moquea",
+   "etiquetas": [],
+   "que_se_ve": "COMPLETAR (mirar planos/011.jpg)",
+   "color": "#4E3B3B"
+  },
+  {
+   "n": 12,
+   "inicio": 40.07,
+   "dura": 3.3,
+   "transicion_entrada": "entrar con zoom",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.514
+    ],
+    "x_px": [
+     0,
+     270
+    ],
+    "y_px": [
+     0,
+     328
+    ],
+    "giro_grados": [
+     0,
+     0.5
+    ],
+    "ease": "power2.in",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 40.53,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 40.97,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 41.4,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 41.83,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 42.9,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 40.24,
+     "sonido": "pop"
+    },
+    {
+     "t": 40.6,
+     "sonido": "pop"
+    },
+    {
+     "t": 42.94,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "lo haces unas quince por minuto cuando",
+   "etiquetas": [
+    "OS",
+    "minuto",
+    "por"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/012.jpg)",
+   "color": "#77574A"
+  },
+  {
+   "n": 13,
+   "inicio": 43.37,
+   "dura": 22.47,
+   "transicion_entrada": "fundido",
+   "camara": {
+    "mov": "giro",
+    "escala": [
+     1.0,
+     0.783
+    ],
+    "x_px": [
+     0,
+     -460
+    ],
+    "y_px": [
+     0,
+     46
+    ],
+    "giro_grados": [
+     0,
+     -33.1
+    ],
+    "ease": "power2.in",
+    "sacudida": true
+   },
+   "eventos": [
+    {
+     "t": 62.23,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 62.8,
+     "tipo": "COMPLETAR"
+    },
+    {
+     "t": 64.27,
+     "tipo": "COMPLETAR"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 44.0,
+     "sonido": "tick"
+    },
+    {
+     "t": 44.18,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 48.12,
+     "sonido": "tick"
+    },
+    {
+     "t": 49.78,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 55.7,
+     "sonido": "tick"
+    },
+    {
+     "t": 57.32,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 57.56,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 58.24,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 58.4,
+     "sonido": "tick"
+    },
+    {
+     "t": 59.8,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 62.14,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 62.28,
+     "sonido": "pop"
+    },
+    {
+     "t": 62.74,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 63.04,
+     "sonido": "tick"
+    },
+    {
+     "t": 63.24,
+     "sonido": "pop"
+    }
+   ],
+   "texto_voz": "parpad rpadeas. Nadie barre: el moco, aceite la suciedad en esquina, se secan mientras, cie ntos cos protegerlo. Así que las legañas sale olo de noche ne ae nocn adie tu cuerpo mientras",
+   "etiquetas": [
+    "Al",
+    "PA",
+    "de.",
+    "ee"
+   ],
+   "que_se_ve": "COMPLETAR (mirar planos/013.jpg)",
+   "color": "#484052"
+  }
+ ]
+}

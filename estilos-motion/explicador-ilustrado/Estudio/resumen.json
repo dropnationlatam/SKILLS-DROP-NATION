@@ -1,52 +1,72 @@
 {
+ "version": "2.0.0",
  "referencias": 4,
  "duracion_media_s": 77.94,
  "fps": [
   30.0
  ],
+ "tamano": [
+  "720x1280"
+ ],
  "ritmo": {
-  "plano_medio_s": 6.35,
-  "plano_mediana_s": 4.59,
-  "cortes_por_min": 8.88,
-  "cortes_primeros_3s": 0,
-  "primer_corte_s": 6.63
+  "plano_medio_s": 5.03,
+  "plano_mediana_s": 3.83,
+  "cortes_por_min": 11.2,
+  "eventos_por_min": 24.77,
+  "evento_cada_s": 1.69,
+  "primer_corte_s": 6.66,
+  "primer_cambio_visual_s": 0.32
  },
  "transiciones_pct": {
-  "fundido / transición suave": 37.3,
-  "corte seco": 35.3,
-  "barrido / desenfoque de movimiento": 17.6,
-  "inicio": 7.8,
-  "paso por negro": 2.0
+  "corte seco": 37.1,
+  "fundido": 30.6,
+  "barrido": 14.5,
+  "entrar con zoom": 9.7,
+  "inicio": 6.5,
+  "paso por negro": 1.6
  },
- "movimiento_pct": {
-  "cámara nerviosa / sacudida": 90.2,
-  "paneo vertical": 51.0,
-  "alejamiento (pull out)": 37.3,
-  "acercamiento (push in)": 35.3,
-  "paneo izq→der": 31.4,
-  "paneo der→izq": 23.5,
-  "giro": 13.7,
-  "quieto": 5.9
+ "camara_pct": {
+  "acercamiento": 32.3,
+  "alejamiento": 25.8,
+  "quieto": 14.5,
+  "deriva leve": 11.3,
+  "paneo horizontal": 8.1,
+  "giro": 8.1
  },
+ "camara_viva_pct": 86.0,
  "grading": {
-  "brillo_medio": 32.95,
-  "contraste": 17.02,
-  "saturacion_media": 50.72,
-  "temperatura": -3.1
+  "brillo_medio": 33.0,
+  "contraste": 17.0,
+  "saturacion_media": 50.7,
+  "temperatura": -3.1,
+  "negros_pct": 20.7
  },
- "layout": {
-  "arriba_pct": 21.5,
-  "centro_pct": 51.75,
-  "abajo_pct": 26.5
+ "fondos": {
+  "De adolescente te CORTABAS las cejas..#c": [
+   "#4D2331"
+  ],
+  "Las legañas no te salen solo de noche, l": [
+   "#362E38",
+   "#52434C",
+   "#191722"
+  ],
+  "¿Alguna vez te preguntaste cómo llega la": [
+   "#171836",
+   "#222B54"
+  ],
+  "¿Por qué se te duerme la pierna y luego ": [
+   "#170F2A",
+   "#30193C"
+  ]
  },
  "paletas": {
   "De adolescente te CORTABAS las cejas..#c": [
    "#DB9176",
    "#E55F6B",
-   "#A16F63",
-   "#81384E",
+   "#A07063",
+   "#82394F",
    "#ECBA9C",
-   "#B0495F"
+   "#B34960"
   ],
   "Las legañas no te salen solo de noche, l": [
    "#362E38",
@@ -57,42 +77,137 @@
    "#C3958D"
   ],
   "¿Alguna vez te preguntaste cómo llega la": [
-   "#0A091E",
-   "#161B3E",
-   "#263466",
-   "#4B5B82",
-   "#432C2B",
-   "#85493C"
+   "#070A1E",
+   "#171836",
+   "#222B54",
+   "#364473",
+   "#713F33",
+   "#606D8D"
   ],
   "¿Por qué se te duerme la pierna y luego ": [
-   "#19102D",
-   "#6D326D",
-   "#3B1F4B",
-   "#816564",
-   "#433B33",
-   "#BB9592"
+   "#170F2A",
+   "#763672",
+   "#30193C",
+   "#542B5F",
+   "#65564D",
+   "#AC8B89"
   ]
  },
- "subtitulos": {
-  "bloques_leidos": 777,
-  "y_pct_mediana": 37.3,
-  "alto_px_mediana": 52,
-  "palabras_por_bloque": 2.5,
-  "segundos_en_pantalla": 0.68,
-  "mayusculas_pct": 13,
-  "relleno_frecuente": "#FEFAFC",
-  "borde_frecuente": "#524347"
+ "acentos": [
+  "#C71768",
+  "#358DCC",
+  "#DE5261",
+  "#D58B45",
+  "#406ABD",
+  "#46ADEA"
+ ],
+ "layout": {
+  "arriba_pct": 22.0,
+  "centro_pct": 51.5,
+  "abajo_pct": 26.2,
+  "zona_ui_pct": 6.8
  },
- "voz": null,
+ "subtitulos": {
+  "y_centro_pct": 19.0,
+  "alto_px_1920": 53.0,
+  "karaoke_pct": 76.0,
+  "cambios_por_s": 2.65,
+  "resaltado_pct": 26.0,
+  "resaltado_hex": [
+   "#9E3F5A",
+   "#366BC5",
+   "#376CB6",
+   "#366BCA"
+  ],
+  "tinta": [
+   "#FEFCF9",
+   "#FFFEFF",
+   "#FDFEFE",
+   "#FEFDFE"
+  ],
+  "mayus_pct": 2.0,
+  "texto_en_pantalla_pct": 85.0
+ },
+ "voz": {
+  "palabras_por_seg": 2.65,
+  "medida": "estimada por subtítulos",
+  "primera_palabra_s": null,
+  "ganchos": [],
+  "cierres": []
+ },
  "audio": {
   "lufs": -14.2,
-  "golpes_por_min": 54.38,
-  "cortes_con_golpe_pct": 24.75,
-  "fondo_continuo": [
+  "golpes_por_min": 54.6,
+  "tipos_golpe": {
+   "pop/click": 75,
+   "whoosh": 115,
+   "golpe": 93
+  },
+  "cortes_con_golpe_pct": 22.1,
+  "voz_pct": 52.7,
+  "musica_fondo": [
    false,
    false,
    false,
    false
   ]
- }
+ },
+ "retencion": [
+  {
+   "regla": "Algo cambia en pantalla antes de 0,8 s",
+   "clave": "primer_cambio_visual_s",
+   "valor": 0.32,
+   "pasa": true,
+   "pasan": "3/4"
+  },
+  {
+   "regla": "Primer cambio de escena antes de 4 s",
+   "clave": "primer_corte_s",
+   "valor": 6.66,
+   "pasa": false,
+   "pasan": "0/4"
+  },
+  {
+   "regla": "Plano mediano entre 2 y 4,5 s",
+   "clave": "plano_mediana_s",
+   "valor": 3.83,
+   "pasa": true,
+   "pasan": "2/4"
+  },
+  {
+   "regla": "Algo nuevo pasa cada ≤ 2 s (cortes + eventos)",
+   "clave": "evento_cada_s",
+   "valor": 1.69,
+   "pasa": true,
+   "pasan": "4/4"
+  },
+  {
+   "regla": "Letra de subtítulo ≥ 46 px de alto a 1920 (≈ 64 px de cuerpo)",
+   "clave": "subtitulo_alto_px",
+   "valor": 53.0,
+   "pasa": true,
+   "pasan": "4/4"
+  },
+  {
+   "regla": "Poca acción en el 12 % de abajo (interfaz de la app) ≤ 12 %",
+   "clave": "zona_ui_pct",
+   "valor": 6.75,
+   "pasa": true,
+   "pasan": "4/4"
+  },
+  {
+   "regla": "Golpe de sonido en ≥ 80 % de los cortes",
+   "clave": "cortes_con_golpe_pct",
+   "valor": 22.07,
+   "pasa": false,
+   "pasan": "0/4"
+  },
+  {
+   "regla": "Entre 40 y 70 efectos por minuto",
+   "clave": "golpes_por_min",
+   "valor": 54.62,
+   "pasa": true,
+   "pasan": "4/4"
+  }
+ ]
 }

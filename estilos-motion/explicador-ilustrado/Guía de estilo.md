@@ -2,7 +2,7 @@
 tipo: guia-estilo-motion
 estilo: Explicador Ilustrado
 id: explicador-ilustrado
-version: 1.0.0
+version: 1.1.0
 actualizado: 2026-11-17
 ---
 
@@ -47,10 +47,10 @@ Explicador curioso con **ilustración semirrealista suave sobre fondos oscuros c
 
 | Transición | Cuándo | Receta |
 |---|---|---|
-| **Entrar con zoom** | De afuera a "por dentro" (piel→folículo, celular→batería). Es la firma del estilo. | `EI.entrarZoom` 0,45 s `power3.in` + entra desde 0,7 |
-| **Fundido** (37 %) | Misma idea, otro momento | `EI.fundido` 0,35 s |
-| **Corte seco** (35 %) | Cambio de idea, **siempre con golpe** | `EI.corte` + `tick`/`impacto` |
-| **Barrido con desenfoque** (18 %) | Salto a una metáfora | `EI.barrido` 0,22 s, blur 22 px |
+| **Entrar con zoom** (10 %) | De afuera a "por dentro" (piel→folículo, celular→batería). Es la firma del estilo. | `EI.entrarZoom` 0,45 s `power3.in` + entra desde 0,7 |
+| **Fundido** (31 %) | Misma idea, otro momento | `EI.fundido` 0,35 s |
+| **Corte seco** (37 %) | Cambio de idea, **siempre con golpe** | `EI.corte` + `tick`/`impacto` |
+| **Barrido con desenfoque** (15 %) | Salto a una metáfora | `EI.barrido` 0,22 s, blur 22 px |
 | **Destello** | Paso del tiempo (día/noche) o revelación del dato | `EI.destello` |
 
 ## 6. Subtítulos (karaoke acumulativo) · `EI.karaoke`
@@ -99,14 +99,24 @@ Explicador curioso con **ilustración semirrealista suave sobre fondos oscuros c
 - **[mejora para productos]** En el paso 5 o 6 el **producto aparece como la solución**, dentro de la misma lógica por dentro. El cierre lo elige el alumno: oferta + paga al recibir, o "comenta <PALABRA>".
 - **[mejora]** **Bucle:** el último cuadro se parece al primero, para que se vuelva a ver.
 
-## 10. Checklist antes de entregar (medir, no suponer)
+## 10. Storyboard con la gramática del estilo
+
+La gramática medida está en `estilo.json → gramatica` [medido v2]: planos de mediana ~4 s, **algo nuevo cada ~1,7 s** (cortes + eventos dentro del plano), cámara 32 % acercamiento · 26 % alejamiento · 11 % deriva · 8 % paneo · 8 % giro, y el mismo movimiento repetido seguido solo en el 16 % de los casos.
+
+- **Siempre** parte de `storyboard.py esqueleto` (3 variantes) y completa `que_se_ve` y `texto_voz`. Elige el de mejor puntaje con `storyboard.py puntuar` (meta: ≥ 90) y corrige lo que liste.
+- **Nunca 3 planos seguidos con el mismo movimiento**; ningún plano quieto en la variante dinámica.
+- El storyboard aprobado se pasa por `storyboard.py afinar` para que el estilo aprenda.
+- Ejemplos y puntaje en `Storyboards/`: los generados sacan 87-94 y las referencias 60-70, porque las referencias fallan en retención (corte tardío y pocos golpes en los cortes).
+
+## 11. Checklist antes de entregar (medir, no suponer)
 
 - [ ] `npx hyperframes check` sin errores.
-- [ ] `python3 herramientas/extraer_estilo.py final.mp4 Trabajo/<Idea>/control` → el plano medio da entre 2 y 4,5 s, hay cámara en movimiento en ≥90 % de los planos y ≥45 golpes por minuto.
+- [ ] `python3 Herramientas/extraer_estilo.py final.mp4 Trabajo/<Idea>/control --rapido` → la tabla de retención pasa entera.
 - [ ] Cuadros clave revisados con los ojos: gancho (0-3 s), cada transición y el cierre.
 - [ ] Subtítulos legibles en el celular y nada tapado por la interfaz de abajo.
 - [ ] Comparado lado a lado con una referencia (`herramientas/comparar.py`).
 
-## 11. Historial del estilo
+## 12. Historial del estilo
 
 - 2026-11-17 · v1.0.0 · Creado desde 4 referencias con el proceso de extracción v2 (medición + lectura cuadro a cuadro + clon + mejora). Demo: `ejemplo/demo.mp4`.
+- 2026-11-17 · v1.1.0 · Re-medido con el extractor v2: gramática del estilo, storyboard real de cada referencia, eventos dentro de los planos y subtítulos karaoke. Se suman los storyboards de ejemplo y el puntaje.

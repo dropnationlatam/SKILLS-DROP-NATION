@@ -1,94 +1,372 @@
 {
-  "nombre": "Explicador Ilustrado",
-  "id": "explicador-ilustrado",
-  "version": "1.0.0",
-  "actualizado": "2026-11-17",
-  "medido_de": "4 reels de referencia (cejas, legañas, audífonos bluetooth, pierna dormida) · 65-91 s · 720x1280 30 fps",
-  "formato": { "ancho": 1080, "alto": 1920, "fps": 30, "duracion_s": [60, 90] },
-
-  "ritmo": {
-    "medido": { "plano_mediana_s": 4.59, "plano_medio_s": 6.35, "cortes_por_min": 8.9, "primer_corte_s": 6.63, "cortes_primeros_3s": 0 },
-    "objetivo_mejorado": {
-      "plano_s": [2.0, 4.5],
-      "evento_visual_cada_s_max": 2.0,
-      "cortes_por_min": [14, 20],
-      "gancho": "transformación visible antes de 0,8 s y primer cambio de escena antes de 4 s"
-    }
+ "nombre": "Explicador Ilustrado",
+ "id": "explicador-ilustrado",
+ "version": "1.1.0",
+ "actualizado": "2026-11-17",
+ "medido_de": "4 reels de referencia (cejas, legañas, audífonos bluetooth, pierna dormida) · 65-91 s · 720x1280 30 fps",
+ "formato": {
+  "ancho": 1080,
+  "alto": 1920,
+  "fps": 30,
+  "duracion_s": [
+   60,
+   90
+  ]
+ },
+ "ritmo": {
+  "medido": {
+   "plano_mediana_s": 4.59,
+   "plano_medio_s": 6.35,
+   "cortes_por_min": 8.9,
+   "primer_corte_s": 6.63,
+   "cortes_primeros_3s": 0
   },
-
-  "camara": {
-    "medido": { "planos_con_movimiento_pct": 94, "push_in_pct": 35, "pull_out_pct": 37, "paneo_pct": 55, "giro_pct": 14, "zoom_pct_por_s": [2, 9] },
-    "reglas": {
-      "deriva": { "escala": [1.0, 1.1], "y_px": [40, -20], "ease": "sine.inOut" },
-      "empujon": { "escala_extra": 0.06, "dur_s": 0.18, "ease": "power3.out" },
-      "sacudida": { "px": 14, "dur_s": 0.35 },
-      "entrar_zoom": { "escala_salida": 3.2, "dur_s": 0.45, "ease": "power3.in" }
-    }
-  },
-
-  "transiciones": {
-    "medido_pct": { "fundido": 37, "corte_seco": 35, "barrido_desenfoque": 18, "paso_por_negro": 2, "destello": 2 },
-    "uso": {
-      "entrar_zoom": "pasar de afuera a 'por dentro' (piel→folículo, celular→batería)",
-      "fundido": "misma escena, otro momento o metáfora suave (0,35 s)",
-      "corte_seco": "cambio de idea con golpe de sonido",
-      "barrido": "salto a una metáfora (auto en la carretera, ampolletas) 0,22 s con blur 22 px",
-      "destello": "paso del tiempo (día/noche) o revelación del dato"
-    }
-  },
-
-  "color": {
-    "medido": { "brillo": 33, "contraste": 17, "saturacion": 51, "temperatura": -3.1 },
-    "fondos": { "morado": "#1E1033", "morado_luz": "#4A2466", "azul": "#0B0A22", "azul_luz": "#263466", "piel_escena": "#DB9176" },
-    "acentos": { "neon_rosa": "#FF3FA4", "neon_cian": "#43D9FF", "oro": "#FFC94A", "verde": "#3DFFA8", "tejido": "#E55F6B" },
-    "paletas_referencia": {
-      "cejas": ["#DB9176", "#E55F6B", "#A16F63", "#81384E", "#ECBA9C", "#B0495F"],
-      "legañas": ["#362E38", "#52434C", "#71544C", "#906A5A", "#191722", "#C3958D"],
-      "bluetooth": ["#0A091E", "#161B3E", "#263466", "#4B5B82", "#432C2B", "#85493C"],
-      "pierna": ["#19102D", "#6D326D", "#3B1F4B", "#816564", "#433B33", "#BB9592"]
-    },
-    "reglas": "fondo oscuro con brillo radial al centro + viñeta; un solo acento neón protagonista por escena; nunca degradado lineal a pantalla completa (bandea)"
-  },
-
-  "subtitulos": {
-    "tipo": "karaoke acumulativo",
-    "fuente": "Poppins", "peso": 600, "tamano_px": 70, "interlineado": 1.22,
-    "posicion": { "top_px": 300, "centro_y_pct": 19, "margen_lateral_px": 110, "alineacion": "centro" },
-    "colores": { "activa": "#FFFFFF", "dicha": "#8E8C9A", "sombra": "0 3px 14px rgba(0,0,0,.55)" },
-    "palabras_por_grupo_max": 6, "lineas_max": 2,
-    "entrada_palabra": { "dur_s": 0.12, "y_px": 10, "escala": 0.92, "ease": "power3.out" },
-    "palabra_clave": { "caja": "#2F7BFF", "borde_px": 4, "radio_px": 8, "manijas": "círculo blanco 18 px arriba-izq y abajo-der", "una_por_frase": true },
-    "medido": { "palabras_por_bloque": 2.5, "minusculas_pct": 87, "alto_letra_px_1920": 52 }
-  },
-
-  "recursos": [
-    "corte por dentro (piel, tejido, aparato en corte) con capas",
-    "líneas neón que se dibujan + pulsos que viajan (nervios, señales, cables)",
-    "ondas concéntricas (wifi, sonido, calor, dolor)",
-    "metáfora cotidiana (ciudad/auto, ampolletas, aspersor, cables)",
-    "lupa que revela el detalle",
-    "paso del tiempo con destellos día/noche, reloj o calendario",
-    "etiqueta píldora blanca ('solo piel')",
-    "globo ícono ('?', 'Zz', '!')",
-    "flechas circulares y rayas de dolor",
-    "partículas / bokeh flotando",
-    "contador animado",
-    "burbuja de comentario en el cierre"
-  ],
-
-  "sonido": {
-    "medido": { "lufs": -14.2, "golpes_por_min": 54, "cortes_con_golpe_pct": 25, "musica_fondo": false, "silencio_pct": 22 },
-    "reglas": { "musica": "no (la pone el editor)", "voz": "al frente, -14 LUFS", "sfx_por_min": [45, 60], "cortes_con_golpe_pct_objetivo": 80 },
-    "mapa_sfx": { "transicion": "whoosh", "etiqueta_globo": "pop", "palabra_clave": "tick", "gancho": "impacto", "destello": "brillo", "pulso_neon": "pulso", "cierre": "burbuja" }
-  },
-
-  "voz": {
-    "medido": "≈3-4 palabras por segundo en el gancho (contado en los cuadros; mídelo con extraer_estilo.py en el computador)",
-    "objetivo": { "palabras_por_seg": [3.0, 3.6], "primera_palabra_s": 0.15 }
-  },
-
-  "guion": {
-    "estructura": ["gancho: pregunta o 'Si…' que te nombra a ti", "revelación: 'en realidad…'", "por dentro: el mecanismo", "metáfora cotidiana", "vuelta al mecanismo + consecuencia", "dato o consejo", "cierre: comenta <palabra>"],
-    "cierre_referencia": "Cuéntanos en los comentarios + burbuja"
+  "objetivo_mejorado": {
+   "plano_s": [
+    2.0,
+    4.5
+   ],
+   "evento_visual_cada_s_max": 2.0,
+   "cortes_por_min": [
+    14,
+    20
+   ],
+   "gancho": "transformación visible antes de 0,8 s y primer cambio de escena antes de 4 s"
   }
+ },
+ "camara": {
+  "medido": {
+   "planos_con_movimiento_pct": 94,
+   "push_in_pct": 35,
+   "pull_out_pct": 37,
+   "paneo_pct": 55,
+   "giro_pct": 14,
+   "zoom_pct_por_s": [
+    2,
+    9
+   ]
+  },
+  "reglas": {
+   "deriva": {
+    "escala": [
+     1.0,
+     1.1
+    ],
+    "y_px": [
+     40,
+     -20
+    ],
+    "ease": "sine.inOut"
+   },
+   "empujon": {
+    "escala_extra": 0.06,
+    "dur_s": 0.18,
+    "ease": "power3.out"
+   },
+   "sacudida": {
+    "px": 14,
+    "dur_s": 0.35
+   },
+   "entrar_zoom": {
+    "escala_salida": 3.2,
+    "dur_s": 0.45,
+    "ease": "power3.in"
+   }
+  }
+ },
+ "transiciones": {
+  "medido_pct": {
+   "fundido": 37,
+   "corte_seco": 35,
+   "barrido_desenfoque": 18,
+   "paso_por_negro": 2,
+   "destello": 2
+  },
+  "uso": {
+   "entrar_zoom": "pasar de afuera a 'por dentro' (piel→folículo, celular→batería)",
+   "fundido": "misma escena, otro momento o metáfora suave (0,35 s)",
+   "corte_seco": "cambio de idea con golpe de sonido",
+   "barrido": "salto a una metáfora (auto en la carretera, ampolletas) 0,22 s con blur 22 px",
+   "destello": "paso del tiempo (día/noche) o revelación del dato"
+  }
+ },
+ "color": {
+  "medido": {
+   "brillo": 33,
+   "contraste": 17,
+   "saturacion": 51,
+   "temperatura": -3.1
+  },
+  "fondos": {
+   "morado": "#1E1033",
+   "morado_luz": "#4A2466",
+   "azul": "#0B0A22",
+   "azul_luz": "#263466",
+   "piel_escena": "#DB9176"
+  },
+  "acentos": {
+   "neon_rosa": "#FF3FA4",
+   "neon_cian": "#43D9FF",
+   "oro": "#FFC94A",
+   "verde": "#3DFFA8",
+   "tejido": "#E55F6B"
+  },
+  "paletas_referencia": {
+   "cejas": [
+    "#DB9176",
+    "#E55F6B",
+    "#A16F63",
+    "#81384E",
+    "#ECBA9C",
+    "#B0495F"
+   ],
+   "legañas": [
+    "#362E38",
+    "#52434C",
+    "#71544C",
+    "#906A5A",
+    "#191722",
+    "#C3958D"
+   ],
+   "bluetooth": [
+    "#0A091E",
+    "#161B3E",
+    "#263466",
+    "#4B5B82",
+    "#432C2B",
+    "#85493C"
+   ],
+   "pierna": [
+    "#19102D",
+    "#6D326D",
+    "#3B1F4B",
+    "#816564",
+    "#433B33",
+    "#BB9592"
+   ]
+  },
+  "reglas": "fondo oscuro con brillo radial al centro + viñeta; un solo acento neón protagonista por escena; nunca degradado lineal a pantalla completa (bandea)"
+ },
+ "subtitulos": {
+  "tipo": "karaoke acumulativo",
+  "fuente": "Poppins",
+  "peso": 600,
+  "tamano_px": 70,
+  "interlineado": 1.22,
+  "posicion": {
+   "top_px": 300,
+   "centro_y_pct": 19,
+   "margen_lateral_px": 110,
+   "alineacion": "centro"
+  },
+  "colores": {
+   "activa": "#FFFFFF",
+   "dicha": "#8E8C9A",
+   "sombra": "0 3px 14px rgba(0,0,0,.55)"
+  },
+  "palabras_por_grupo_max": 6,
+  "lineas_max": 2,
+  "entrada_palabra": {
+   "dur_s": 0.12,
+   "y_px": 10,
+   "escala": 0.92,
+   "ease": "power3.out"
+  },
+  "palabra_clave": {
+   "caja": "#2F7BFF",
+   "borde_px": 4,
+   "radio_px": 8,
+   "manijas": "círculo blanco 18 px arriba-izq y abajo-der",
+   "una_por_frase": true
+  },
+  "medido": {
+   "palabras_por_bloque": 2.5,
+   "minusculas_pct": 87,
+   "alto_letra_px_1920": 52
+  }
+ },
+ "recursos": [
+  "corte por dentro (piel, tejido, aparato en corte) con capas",
+  "líneas neón que se dibujan + pulsos que viajan (nervios, señales, cables)",
+  "ondas concéntricas (wifi, sonido, calor, dolor)",
+  "metáfora cotidiana (ciudad/auto, ampolletas, aspersor, cables)",
+  "lupa que revela el detalle",
+  "paso del tiempo con destellos día/noche, reloj o calendario",
+  "etiqueta píldora blanca ('solo piel')",
+  "globo ícono ('?', 'Zz', '!')",
+  "flechas circulares y rayas de dolor",
+  "partículas / bokeh flotando",
+  "contador animado",
+  "burbuja de comentario en el cierre"
+ ],
+ "sonido": {
+  "medido": {
+   "lufs": -14.2,
+   "golpes_por_min": 54,
+   "cortes_con_golpe_pct": 25,
+   "musica_fondo": false,
+   "silencio_pct": 22
+  },
+  "reglas": {
+   "musica": "no (la pone el editor)",
+   "voz": "al frente, -14 LUFS",
+   "sfx_por_min": [
+    45,
+    60
+   ],
+   "cortes_con_golpe_pct_objetivo": 80
+  },
+  "mapa_sfx": {
+   "transicion": "whoosh",
+   "etiqueta_globo": "pop",
+   "palabra_clave": "tick",
+   "gancho": "impacto",
+   "destello": "brillo",
+   "pulso_neon": "pulso",
+   "cierre": "burbuja"
+  }
+ },
+ "voz": {
+  "medido": "≈3-4 palabras por segundo en el gancho (contado en los cuadros; mídelo con extraer_estilo.py en el computador)",
+  "objetivo": {
+   "palabras_por_seg": [
+    3.0,
+    3.6
+   ],
+   "primera_palabra_s": 0.15
+  }
+ },
+ "guion": {
+  "estructura": [
+   "gancho: pregunta o 'Si…' que te nombra a ti",
+   "revelación: 'en realidad…'",
+   "por dentro: el mecanismo",
+   "metáfora cotidiana",
+   "vuelta al mecanismo + consecuencia",
+   "dato o consejo",
+   "cierre: comenta <palabra>"
+  ],
+  "cierre_referencia": "Cuéntanos en los comentarios + burbuja"
+ },
+ "gramatica": {
+  "version": "2.0.0",
+  "referencias": 4,
+  "planos_medidos": 62,
+  "duracion_video_s": {
+   "p10": 67.97,
+   "p25": 71.03,
+   "p50": 77.66,
+   "p75": 84.58,
+   "p90": 88.15
+  },
+  "duracion_plano_s": {
+   "p10": 0.37,
+   "p25": 1.85,
+   "p50": 4.08,
+   "p75": 7.12,
+   "p90": 10.7
+  },
+  "transiciones": {
+   "corte seco": 0.371,
+   "fundido": 0.306,
+   "barrido": 0.145,
+   "entrar con zoom": 0.097,
+   "inicio": 0.065,
+   "paso por negro": 0.016
+  },
+  "camara": {
+   "acercamiento": 0.323,
+   "alejamiento": 0.258,
+   "quieto": 0.145,
+   "deriva leve": 0.113,
+   "giro": 0.081,
+   "paneo horizontal": 0.081
+  },
+  "camara_siguiente": {
+   "acercamiento": {
+    "quieto": 0.222,
+    "acercamiento": 0.222,
+    "paneo horizontal": 0.111,
+    "deriva leve": 0.111,
+    "alejamiento": 0.278,
+    "giro": 0.056
+   },
+   "quieto": {
+    "acercamiento": 0.444,
+    "alejamiento": 0.222,
+    "giro": 0.222,
+    "quieto": 0.111
+   },
+   "alejamiento": {
+    "deriva leve": 0.25,
+    "quieto": 0.062,
+    "giro": 0.062,
+    "acercamiento": 0.312,
+    "alejamiento": 0.188,
+    "paneo horizontal": 0.125
+   },
+   "deriva leve": {
+    "quieto": 0.5,
+    "acercamiento": 0.333,
+    "alejamiento": 0.167
+   },
+   "paneo horizontal": {
+    "alejamiento": 0.4,
+    "paneo horizontal": 0.2,
+    "deriva leve": 0.2,
+    "acercamiento": 0.2
+   },
+   "giro": {
+    "acercamiento": 0.5,
+    "alejamiento": 0.5
+   }
+  },
+  "camara_repite_seguida": 0.162,
+  "sacudida_pct": 53.2,
+  "zoom_pct_por_plano": {
+   "p10": 0.56,
+   "p25": 4.6,
+   "p50": 26.3,
+   "p75": 51.7,
+   "p90": 74.34
+  },
+  "paneo_px_por_plano": {
+   "p10": 11.04,
+   "p25": 63.67,
+   "p50": 312.6,
+   "p75": 483.51,
+   "p90": 863.52
+  },
+  "easing": {
+   "none": 0.419,
+   "power2.out": 0.274,
+   "—": 0.129,
+   "power2.in": 0.113,
+   "sine.inOut": 0.065
+  },
+  "eventos_por_s": 0.413,
+  "evento_cada_s": 1.69,
+  "primer_cambio_visual_s": 0.32,
+  "primer_corte_s": 6.66,
+  "sfx_por_min": 54.6,
+  "sfx_tipos": {
+   "pop/click": 0.265,
+   "whoosh": 0.406,
+   "golpe": 0.329
+  },
+  "cortes_con_golpe_pct": 22.1,
+  "palabras_por_seg": 2.65,
+  "subtitulo_cambios_por_s": 2.65,
+  "mejoras": {
+   "duracion_plano_s": [
+    2.0,
+    4.5
+   ],
+   "evento_cada_s_max": 2.0,
+   "primer_cambio_visual_s_max": 0.8,
+   "primer_corte_s_max": 4.0,
+   "cortes_con_golpe_pct_min": 80,
+   "camara_repite_seguida_max": 0.25
+  }
+ }
 }

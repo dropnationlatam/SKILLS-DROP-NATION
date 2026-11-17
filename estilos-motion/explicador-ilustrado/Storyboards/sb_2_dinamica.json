@@ -1,0 +1,1568 @@
+{
+ "titulo": "Storyboard 2 (dinamica)",
+ "tipo": "esqueleto",
+ "variante": "dinamica",
+ "duracion_s": 75.0,
+ "generado_con": "storyboard.py v1.0.0",
+ "planos": [
+  {
+   "n": 1,
+   "inicio": 0.0,
+   "dura": 2.17,
+   "parte": null,
+   "transicion_entrada": "inicio",
+   "receta_transicion": "",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.189
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     -57
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e1-cam\", 0.0, 2.17, {\"scale\": 1.0, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.189, \"x\": 0, \"y\": -57, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [
+    {
+     "t": 0.35,
+     "tipo": "transformación del objeto",
+     "receta": "tween propio"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 0.35,
+     "sonido": "impacto"
+    },
+    {
+     "t": 1.08,
+     "sonido": "tick (palabra clave)"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 2,
+   "inicio": 2.17,
+   "dura": 1.58,
+   "parte": null,
+   "transicion_entrada": "entrar con zoom",
+   "receta_transicion": "EI.entrarZoom",
+   "camara": {
+    "mov": "deriva leve",
+    "escala": [
+     1.0,
+     1.03
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     20,
+     -20
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e2-cam\", 2.17, 1.58, {\"scale\": 1.0, \"x\": 0, \"y\": 20, \"rotation\": 0}, {\"scale\": 1.03, \"x\": 0, \"y\": -20, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 2.17,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 3,
+   "inicio": 3.75,
+   "dura": 2.26,
+   "parte": null,
+   "transicion_entrada": "fundido",
+   "receta_transicion": "EI.fundido",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.197
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     -59
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e3-cam\", 3.75, 2.26, {\"scale\": 1.0, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.197, \"x\": 0, \"y\": -59, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [
+    {
+     "t": 4.91,
+     "tipo": "contador",
+     "receta": "EI.contador"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 3.75,
+     "sonido": "whoosh_corto"
+    },
+    {
+     "t": 4.91,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 4,
+   "inicio": 6.01,
+   "dura": 2.35,
+   "parte": null,
+   "transicion_entrada": "fundido",
+   "receta_transicion": "EI.fundido",
+   "camara": {
+    "mov": "paneo horizontal",
+    "escala": [
+     1.12,
+     1.12
+    ],
+    "x_px": [
+     121,
+     -122
+    ],
+    "y_px": [
+     0,
+     0
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "receta_camara": "EI.camara(tl, \"#e4-cam\", 6.01, 2.35, {\"scale\": 1.12, \"x\": 121, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.12, \"x\": -122, \"y\": 0, \"rotation\": 0}, \"power2.out\"); EI.sacudida(tl, \"#e4-cam\", 7.18, 14, 0.35)",
+   "eventos": [
+    {
+     "t": 7.17,
+     "tipo": "transformación del objeto",
+     "receta": "tween propio"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 6.01,
+     "sonido": "whoosh_corto"
+    },
+    {
+     "t": 7.17,
+     "sonido": "whoosh_corto"
+    },
+    {
+     "t": 7.18,
+     "sonido": "impacto"
+    },
+    {
+     "t": 7.2,
+     "sonido": "tick (palabra clave)"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 5,
+   "inicio": 8.36,
+   "dura": 3.6,
+   "parte": null,
+   "transicion_entrada": "corte seco",
+   "receta_transicion": "EI.corte",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.313,
+     1.0
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     0
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "receta_camara": "EI.camara(tl, \"#e5-cam\", 8.36, 3.6, {\"scale\": 1.313, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.0, \"x\": 0, \"y\": 0, \"rotation\": 0}, \"power2.out\"); EI.sacudida(tl, \"#e5-cam\", 10.16, 14, 0.35)",
+   "eventos": [
+    {
+     "t": 10.01,
+     "tipo": "etiqueta",
+     "receta": "EI.pop(.etiqueta)"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 8.36,
+     "sonido": "impacto"
+    },
+    {
+     "t": 10.01,
+     "sonido": "pop"
+    },
+    {
+     "t": 10.16,
+     "sonido": "impacto"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 6,
+   "inicio": 11.96,
+   "dura": 3.1,
+   "parte": null,
+   "transicion_entrada": "corte seco",
+   "receta_transicion": "EI.corte",
+   "camara": {
+    "mov": "paneo horizontal",
+    "escala": [
+     1.12,
+     1.12
+    ],
+    "x_px": [
+     -161,
+     160
+    ],
+    "y_px": [
+     0,
+     0
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e6-cam\", 11.96, 3.1, {\"scale\": 1.12, \"x\": -161, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.12, \"x\": 160, \"y\": 0, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [
+    {
+     "t": 13.4,
+     "tipo": "pulso neón",
+     "receta": "EI.neonDibujar + EI.neonPulso"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 11.96,
+     "sonido": "impacto"
+    },
+    {
+     "t": 13.4,
+     "sonido": "pulso"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 7,
+   "inicio": 15.06,
+   "dura": 2.23,
+   "parte": null,
+   "transicion_entrada": "fundido",
+   "receta_transicion": "EI.fundido",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.194,
+     1.0
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     0
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "receta_camara": "EI.camara(tl, \"#e7-cam\", 15.06, 2.23, {\"scale\": 1.194, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.0, \"x\": 0, \"y\": 0, \"rotation\": 0}, \"power2.out\"); EI.sacudida(tl, \"#e7-cam\", 16.17, 14, 0.35)",
+   "eventos": [
+    {
+     "t": 16.07,
+     "tipo": "flecha / círculo que señala",
+     "receta": "EI.pop(svg)"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 15.06,
+     "sonido": "whoosh_corto"
+    },
+    {
+     "t": 15.94,
+     "sonido": "tick (palabra clave)"
+    },
+    {
+     "t": 16.07,
+     "sonido": "pop"
+    },
+    {
+     "t": 16.17,
+     "sonido": "impacto"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 8,
+   "inicio": 17.29,
+   "dura": 2.86,
+   "parte": null,
+   "transicion_entrada": "entrar con zoom",
+   "receta_transicion": "EI.entrarZoom",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.249
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     -75
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "receta_camara": "EI.camara(tl, \"#e8-cam\", 17.29, 2.86, {\"scale\": 1.0, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.249, \"x\": 0, \"y\": -75, \"rotation\": 0}, \"power2.out\"); EI.sacudida(tl, \"#e8-cam\", 18.72, 14, 0.35)",
+   "eventos": [
+    {
+     "t": 18.83,
+     "tipo": "lupa",
+     "receta": "EI.lupa"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 17.29,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 18.72,
+     "sonido": "impacto"
+    },
+    {
+     "t": 18.83,
+     "sonido": "whoosh_corto"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 9,
+   "inicio": 20.15,
+   "dura": 2.79,
+   "parte": null,
+   "transicion_entrada": "fundido",
+   "receta_transicion": "EI.fundido",
+   "camara": {
+    "mov": "deriva leve",
+    "escala": [
+     1.0,
+     1.03
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     20,
+     -20
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e9-cam\", 20.15, 2.79, {\"scale\": 1.0, \"x\": 0, \"y\": 20, \"rotation\": 0}, {\"scale\": 1.03, \"x\": 0, \"y\": -20, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [
+    {
+     "t": 21.54,
+     "tipo": "partículas que estallan",
+     "receta": "EI.particulas"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 20.15,
+     "sonido": "whoosh_corto"
+    },
+    {
+     "t": 21.54,
+     "sonido": "brillo"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 10,
+   "inicio": 22.94,
+   "dura": 2.81,
+   "parte": null,
+   "transicion_entrada": "corte seco",
+   "receta_transicion": "EI.corte",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.245,
+     1.0
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     0
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "receta_camara": "EI.camara(tl, \"#e10-cam\", 22.94, 2.81, {\"scale\": 1.245, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.0, \"x\": 0, \"y\": 0, \"rotation\": 0}, \"power2.out\"); EI.sacudida(tl, \"#e10-cam\", 24.34, 14, 0.35)",
+   "eventos": [
+    {
+     "t": 24.21,
+     "tipo": "partículas que estallan",
+     "receta": "EI.particulas"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 22.94,
+     "sonido": "impacto"
+    },
+    {
+     "t": 24.2,
+     "sonido": "tick (palabra clave)"
+    },
+    {
+     "t": 24.21,
+     "sonido": "brillo"
+    },
+    {
+     "t": 24.34,
+     "sonido": "impacto"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 11,
+   "inicio": 25.75,
+   "dura": 2.97,
+   "parte": null,
+   "transicion_entrada": "corte seco",
+   "receta_transicion": "EI.corte",
+   "camara": {
+    "mov": "paneo horizontal",
+    "escala": [
+     1.12,
+     1.12
+    ],
+    "x_px": [
+     153,
+     -154
+    ],
+    "y_px": [
+     0,
+     0
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e11-cam\", 25.75, 2.97, {\"scale\": 1.12, \"x\": 153, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.12, \"x\": -154, \"y\": 0, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [
+    {
+     "t": 27.25,
+     "tipo": "flecha / círculo que señala",
+     "receta": "EI.pop(svg)"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 25.75,
+     "sonido": "impacto"
+    },
+    {
+     "t": 27.25,
+     "sonido": "pop"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 12,
+   "inicio": 28.72,
+   "dura": 1.36,
+   "parte": null,
+   "transicion_entrada": "barrido",
+   "receta_transicion": "EI.barrido",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.118,
+     1.0
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     0
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e12-cam\", 28.72, 1.36, {\"scale\": 1.118, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.0, \"x\": 0, \"y\": 0, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 28.72,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 13,
+   "inicio": 30.08,
+   "dura": 1.1,
+   "parte": null,
+   "transicion_entrada": "fundido",
+   "receta_transicion": "EI.fundido",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.096
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     -29
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e13-cam\", 30.08, 1.1, {\"scale\": 1.0, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.096, \"x\": 0, \"y\": -29, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 30.08,
+     "sonido": "whoosh_corto"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 14,
+   "inicio": 31.18,
+   "dura": 2.11,
+   "parte": null,
+   "transicion_entrada": "corte seco",
+   "receta_transicion": "EI.corte",
+   "camara": {
+    "mov": "paneo horizontal",
+    "escala": [
+     1.12,
+     1.12
+    ],
+    "x_px": [
+     109,
+     -109
+    ],
+    "y_px": [
+     0,
+     0
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e14-cam\", 31.18, 2.11, {\"scale\": 1.12, \"x\": 109, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.12, \"x\": -109, \"y\": 0, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [
+    {
+     "t": 32.29,
+     "tipo": "etiqueta",
+     "receta": "EI.pop(.etiqueta)"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 31.18,
+     "sonido": "impacto"
+    },
+    {
+     "t": 32.29,
+     "sonido": "pop"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 15,
+   "inicio": 33.29,
+   "dura": 2.92,
+   "parte": null,
+   "transicion_entrada": "fundido",
+   "receta_transicion": "EI.fundido",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.254,
+     1.0
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     0
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "receta_camara": "EI.camara(tl, \"#e15-cam\", 33.29, 2.92, {\"scale\": 1.254, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.0, \"x\": 0, \"y\": 0, \"rotation\": 0}, \"power2.out\"); EI.sacudida(tl, \"#e15-cam\", 34.75, 14, 0.35)",
+   "eventos": [
+    {
+     "t": 34.76,
+     "tipo": "ondas",
+     "receta": "EI.ondas"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 33.29,
+     "sonido": "whoosh_corto"
+    },
+    {
+     "t": 34.75,
+     "sonido": "impacto"
+    },
+    {
+     "t": 34.76,
+     "sonido": "pulso"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 16,
+   "inicio": 36.21,
+   "dura": 2.37,
+   "parte": null,
+   "transicion_entrada": "barrido",
+   "receta_transicion": "EI.barrido",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.206
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     -62
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "receta_camara": "EI.camara(tl, \"#e16-cam\", 36.21, 2.37, {\"scale\": 1.0, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.206, \"x\": 0, \"y\": -62, \"rotation\": 0}, \"power2.out\"); EI.sacudida(tl, \"#e16-cam\", 37.4, 14, 0.35)",
+   "eventos": [
+    {
+     "t": 37.28,
+     "tipo": "transformación del objeto",
+     "receta": "tween propio"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 36.21,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 37.28,
+     "sonido": "whoosh_corto"
+    },
+    {
+     "t": 37.4,
+     "sonido": "impacto"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 17,
+   "inicio": 38.58,
+   "dura": 3.6,
+   "parte": null,
+   "transicion_entrada": "barrido",
+   "receta_transicion": "EI.barrido",
+   "camara": {
+    "mov": "deriva leve",
+    "escala": [
+     1.0,
+     1.03
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     20,
+     -20
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e17-cam\", 38.58, 3.6, {\"scale\": 1.0, \"x\": 0, \"y\": 20, \"rotation\": 0}, {\"scale\": 1.03, \"x\": 0, \"y\": -20, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [
+    {
+     "t": 40.45,
+     "tipo": "ondas",
+     "receta": "EI.ondas"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 38.58,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 40.45,
+     "sonido": "pulso"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 18,
+   "inicio": 42.18,
+   "dura": 1.6,
+   "parte": null,
+   "transicion_entrada": "corte seco",
+   "receta_transicion": "EI.corte",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.139,
+     1.0
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     0
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e18-cam\", 42.18, 1.6, {\"scale\": 1.139, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.0, \"x\": 0, \"y\": 0, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 42.18,
+     "sonido": "impacto"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 19,
+   "inicio": 43.78,
+   "dura": 1.62,
+   "parte": null,
+   "transicion_entrada": "entrar con zoom",
+   "receta_transicion": "EI.entrarZoom",
+   "camara": {
+    "mov": "deriva leve",
+    "escala": [
+     1.0,
+     1.03
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     20,
+     -20
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e19-cam\", 43.78, 1.62, {\"scale\": 1.0, \"x\": 0, \"y\": 20, \"rotation\": 0}, {\"scale\": 1.03, \"x\": 0, \"y\": -20, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 43.78,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 20,
+   "inicio": 45.4,
+   "dura": 2.71,
+   "parte": null,
+   "transicion_entrada": "corte seco",
+   "receta_transicion": "EI.corte",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.236
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     -71
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e20-cam\", 45.4, 2.71, {\"scale\": 1.0, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.236, \"x\": 0, \"y\": -71, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [
+    {
+     "t": 46.87,
+     "tipo": "empujón en palabra clave",
+     "receta": "EI.empujon"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 45.4,
+     "sonido": "impacto"
+    },
+    {
+     "t": 46.87,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 21,
+   "inicio": 48.11,
+   "dura": 1.58,
+   "parte": null,
+   "transicion_entrada": "barrido",
+   "receta_transicion": "EI.barrido",
+   "camara": {
+    "mov": "deriva leve",
+    "escala": [
+     1.0,
+     1.03
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     20,
+     -20
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "receta_camara": "EI.camara(tl, \"#e21-cam\", 48.11, 1.58, {\"scale\": 1.0, \"x\": 0, \"y\": 20, \"rotation\": 0}, {\"scale\": 1.03, \"x\": 0, \"y\": -20, \"rotation\": 0}, \"power2.out\"); EI.sacudida(tl, \"#e21-cam\", 48.9, 14, 0.35)",
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 48.11,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 48.9,
+     "sonido": "impacto"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 22,
+   "inicio": 49.69,
+   "dura": 3.0,
+   "parte": null,
+   "transicion_entrada": "corte seco",
+   "receta_transicion": "EI.corte",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.261
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     -78
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e22-cam\", 49.69, 3.0, {\"scale\": 1.0, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.261, \"x\": 0, \"y\": -78, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [
+    {
+     "t": 51.26,
+     "tipo": "empujón en palabra clave",
+     "receta": "EI.empujon"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 49.69,
+     "sonido": "impacto"
+    },
+    {
+     "t": 51.26,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 23,
+   "inicio": 52.69,
+   "dura": 2.03,
+   "parte": null,
+   "transicion_entrada": "entrar con zoom",
+   "receta_transicion": "EI.entrarZoom",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.177,
+     1.0
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     0
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "receta_camara": "EI.camara(tl, \"#e23-cam\", 52.69, 2.03, {\"scale\": 1.177, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.0, \"x\": 0, \"y\": 0, \"rotation\": 0}, \"power2.out\"); EI.sacudida(tl, \"#e23-cam\", 53.7, 14, 0.35)",
+   "eventos": [
+    {
+     "t": 53.84,
+     "tipo": "empujón en palabra clave",
+     "receta": "EI.empujon"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 52.69,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 53.7,
+     "sonido": "impacto"
+    },
+    {
+     "t": 53.84,
+     "sonido": "tick"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 24,
+   "inicio": 54.72,
+   "dura": 2.48,
+   "parte": null,
+   "transicion_entrada": "corte seco",
+   "receta_transicion": "EI.corte",
+   "camara": {
+    "mov": "deriva leve",
+    "escala": [
+     1.0,
+     1.03
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     20,
+     -20
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e24-cam\", 54.72, 2.48, {\"scale\": 1.0, \"x\": 0, \"y\": 20, \"rotation\": 0}, {\"scale\": 1.03, \"x\": 0, \"y\": -20, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [
+    {
+     "t": 56.04,
+     "tipo": "etiqueta",
+     "receta": "EI.pop(.etiqueta)"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 54.72,
+     "sonido": "impacto"
+    },
+    {
+     "t": 56.04,
+     "sonido": "pop"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 25,
+   "inicio": 57.2,
+   "dura": 2.85,
+   "parte": null,
+   "transicion_entrada": "fundido",
+   "receta_transicion": "EI.fundido",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.248
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     -74
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e25-cam\", 57.2, 2.85, {\"scale\": 1.0, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.248, \"x\": 0, \"y\": -74, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [
+    {
+     "t": 58.71,
+     "tipo": "ondas",
+     "receta": "EI.ondas"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 57.2,
+     "sonido": "whoosh_corto"
+    },
+    {
+     "t": 58.71,
+     "sonido": "pulso"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 26,
+   "inicio": 60.05,
+   "dura": 2.55,
+   "parte": null,
+   "transicion_entrada": "fundido",
+   "receta_transicion": "EI.fundido",
+   "camara": {
+    "mov": "giro",
+    "escala": [
+     1.06,
+     1.171
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     0
+    ],
+    "giro_grados": [
+     0,
+     -3.7
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e26-cam\", 60.05, 2.55, {\"scale\": 1.06, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.171, \"x\": 0, \"y\": 0, \"rotation\": -3.7}, \"power2.out\")",
+   "eventos": [
+    {
+     "t": 61.21,
+     "tipo": "transformación del objeto",
+     "receta": "tween propio"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 60.05,
+     "sonido": "whoosh_corto"
+    },
+    {
+     "t": 61.21,
+     "sonido": "whoosh_corto"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 27,
+   "inicio": 62.6,
+   "dura": 1.49,
+   "parte": null,
+   "transicion_entrada": "entrar con zoom",
+   "receta_transicion": "EI.entrarZoom",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.13,
+     1.0
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     0
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e27-cam\", 62.6, 1.49, {\"scale\": 1.13, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.0, \"x\": 0, \"y\": 0, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 62.6,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 28,
+   "inicio": 64.09,
+   "dura": 1.1,
+   "parte": null,
+   "transicion_entrada": "barrido",
+   "receta_transicion": "EI.barrido",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.096
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     -29
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": true
+   },
+   "receta_camara": "EI.camara(tl, \"#e28-cam\", 64.09, 1.1, {\"scale\": 1.0, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.096, \"x\": 0, \"y\": -29, \"rotation\": 0}, \"power2.out\"); EI.sacudida(tl, \"#e28-cam\", 64.64, 14, 0.35)",
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 64.09,
+     "sonido": "whoosh"
+    },
+    {
+     "t": 64.64,
+     "sonido": "impacto"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 29,
+   "inicio": 65.19,
+   "dura": 2.93,
+   "parte": null,
+   "transicion_entrada": "corte seco",
+   "receta_transicion": "EI.corte",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.255
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     -76
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e29-cam\", 65.19, 2.93, {\"scale\": 1.0, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.255, \"x\": 0, \"y\": -76, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [
+    {
+     "t": 66.71,
+     "tipo": "ondas",
+     "receta": "EI.ondas"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 65.19,
+     "sonido": "impacto"
+    },
+    {
+     "t": 66.71,
+     "sonido": "pulso"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 30,
+   "inicio": 68.12,
+   "dura": 1.1,
+   "parte": null,
+   "transicion_entrada": "barrido",
+   "receta_transicion": "EI.barrido",
+   "camara": {
+    "mov": "alejamiento",
+    "escala": [
+     1.096,
+     1.0
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     0
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e30-cam\", 68.12, 1.1, {\"scale\": 1.096, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.0, \"x\": 0, \"y\": 0, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 68.12,
+     "sonido": "whoosh"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 31,
+   "inicio": 69.22,
+   "dura": 1.16,
+   "parte": null,
+   "transicion_entrada": "corte seco",
+   "receta_transicion": "EI.corte",
+   "camara": {
+    "mov": "deriva leve",
+    "escala": [
+     1.0,
+     1.03
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     20,
+     -20
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e31-cam\", 69.22, 1.16, {\"scale\": 1.0, \"x\": 0, \"y\": 20, \"rotation\": 0}, {\"scale\": 1.03, \"x\": 0, \"y\": -20, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 69.22,
+     "sonido": "impacto"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 32,
+   "inicio": 70.38,
+   "dura": 1.1,
+   "parte": null,
+   "transicion_entrada": "fundido",
+   "receta_transicion": "EI.fundido",
+   "camara": {
+    "mov": "acercamiento",
+    "escala": [
+     1.0,
+     1.096
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     0,
+     -29
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e32-cam\", 70.38, 1.1, {\"scale\": 1.0, \"x\": 0, \"y\": 0, \"rotation\": 0}, {\"scale\": 1.096, \"x\": 0, \"y\": -29, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [],
+   "sfx": [
+    {
+     "t": 70.38,
+     "sonido": "whoosh_corto"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  },
+  {
+   "n": 33,
+   "inicio": 71.48,
+   "dura": 3.52,
+   "parte": null,
+   "transicion_entrada": "corte seco",
+   "receta_transicion": "EI.corte",
+   "camara": {
+    "mov": "deriva leve",
+    "escala": [
+     1.0,
+     1.03
+    ],
+    "x_px": [
+     0,
+     0
+    ],
+    "y_px": [
+     20,
+     -20
+    ],
+    "giro_grados": [
+     0,
+     0
+    ],
+    "ease": "power2.out",
+    "sacudida": false
+   },
+   "receta_camara": "EI.camara(tl, \"#e33-cam\", 71.48, 3.52, {\"scale\": 1.0, \"x\": 0, \"y\": 20, \"rotation\": 0}, {\"scale\": 1.03, \"x\": 0, \"y\": -20, \"rotation\": 0}, \"power2.out\")",
+   "eventos": [
+    {
+     "t": 73.13,
+     "tipo": "transformación del objeto",
+     "receta": "tween propio"
+    }
+   ],
+   "sfx": [
+    {
+     "t": 71.48,
+     "sonido": "impacto"
+    },
+    {
+     "t": 73.13,
+     "sonido": "whoosh_corto"
+    }
+   ],
+   "texto_voz": "COMPLETAR",
+   "que_se_ve": "COMPLETAR"
+  }
+ ]
+}

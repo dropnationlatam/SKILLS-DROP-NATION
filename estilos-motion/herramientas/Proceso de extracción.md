@@ -1,13 +1,13 @@
 ---
 tipo: proceso-motion
-version: 2.0.0
+version: 2.1.0
 actualizado: 2026-11-17
 ---
 
-# Proceso de extracción de estilo v2 · aprender, clonar y superar
+# Proceso de extracción de estilo v2.1 · aprender, clonar, afinar y superar
 
 > [!info] PARA CLAUDE (no borrar)
-> Con este proceso se convierte un grupo de mp4 de referencia en un **estilo reutilizable** que sale igual al original y luego **mejor**. Son 6 fases y ninguna se salta. Lo que se mide se escribe como **[medido]**, lo que se mira como **[visto]** y lo que cambiamos a propósito como **[mejora]**. Nunca se escribe una regla "a ojo" si se puede medir.
+> Con este proceso se convierte un grupo de mp4 de referencia en un **estilo reutilizable** que sale igual al original y luego **mejor**. Son 7 fases y ninguna se salta. Lo que se mide se escribe como **[medido]**, lo que se mira como **[visto]** y lo que cambiamos a propósito como **[mejora]**. Nunca se escribe una regla "a ojo" si se puede medir.
 
 **Necesita:** las `Herramientas/` de la skill (`extraer_estilo.py`, `comparar.py`, `generar_sfx.py`), FFmpeg, Python con `opencv-python numpy scikit-learn pillow scenedetect` y, si se puede, `pytesseract` (y Tesseract con español) y `faster-whisper`. HyperFrames ya está instalado desde el Paso 1. Lo que falte se instala con permiso, como dice el Paso 1.
 ```bash
@@ -17,22 +17,26 @@ python3 -m pip install opencv-python numpy scikit-learn pillow scenedetect pytes
 
 ---
 
-## Fase A · Medir todo lo medible (automático)
+## Fase A · Medir todo lo medible (automático, ~2 min para 4 videos)
 
 ```bash
 python3 "Herramientas/extraer_estilo.py" "Estilos/<Estilo>/Referencias" "Estilos/<Estilo>/Estudio"
 ```
-Mide en cada referencia y en conjunto:
-- **Ritmo:** cada corte con su tiempo, duración de cada plano, cortes por minuto, cortes en los primeros 3 s.
-- **Transiciones:** clasifica cada corte (seco, fundido, barrido con desenfoque, destello, paso por negro).
-- **Cámara por plano:** acercamiento o alejamiento en % por segundo, paneo en px/s, giro, sacudida y **qué easing** sigue (lineal, ease-out, ease-in, ease-in-out).
-- **Color:** paleta en HEX con su %, por referencia y por plano; brillo, contraste, saturación y temperatura.
-- **Composición:** mapa de dónde pasa la acción (arriba, centro o abajo) contra las zonas seguras.
-- **Textos (OCR):** qué dice, dónde está (% de altura), tamaño de letra en px a 1920, color de relleno y de borde, cuánto dura en pantalla, palabras por bloque, mayúsculas.
-- **Sonido:** volumen (LUFS), golpes o efectos por minuto, % de cortes con golpe, si hay música de fondo, % de silencio.
-- **Voz (si hay faster-whisper):** transcripción con tiempos por palabra, palabras por segundo, a qué segundo suena la primera palabra y el gancho exacto de los primeros 3 s.
+Lee cada video **una sola vez**, analiza varios a la vez y **guarda lo medido**: si se vuelve a correr sin cambios, es instantáneo (`--forzar` para medir de nuevo, `--rapido` para revisar un video final en segundos). Mide en cada referencia y en conjunto:
+- **Ritmo:** cada corte (los destellos no cuentan como corte), duración de cada plano y **eventos dentro de los planos**: algo que aparece o se transforma en cualquier zona de la pantalla, sin contar los cambios de subtítulo. Calcula **cada cuántos segundos pasa algo nuevo** y **cuándo cambia la imagen por primera vez** (el gancho).
+- **Transiciones:** corte seco, fundido, barrido con desenfoque, **entrar con zoom**, destello y paso por negro.
+- **Cámara por plano:** movimiento principal (acercamiento, alejamiento, paneo, giro, deriva o quieto), sacudida, **valores listos para `EI.camara`** (escala, x, y y giro de inicio y fin) y easing.
+- **Color:** paleta con el rol de cada color (fondo, medio o acento), **acentos neón aunque ocupen poco**, brillo, contraste, saturación, temperatura y negros.
+- **Composición:** dónde pasa la acción y cuánta cae en el 12 % de abajo (la zona de la interfaz).
+- **Subtítulos:** franja, tamaño, color, **si son karaoke**, cuántas veces cambian por segundo y el color del resaltado.
+- **Sonido:** LUFS, efectos por minuto **por tipo** (whoosh, pop o click, grave), % de cortes con golpe, cuánto habla la voz y si hay música de fondo.
+- **Voz:** con faster-whisper, la transcripción por palabra, las palabras por segundo, el gancho y el cierre. Sin ella, las palabras por segundo se **estiman desde los subtítulos karaoke**.
 
-También deja para mirar: `planos.jpg` (un cuadro por plano), `gancho.jpg` (los primeros 3 s a 10 cuadros por segundo), `transiciones/NN.jpg` (8 cuadros alrededor de cada corte), `planos/NNN.jpg` (cuadros en tamaño completo) y `mapa_actividad.jpg`.
+Entrega:
+- `Informe de extracción.md` con la **tabla de retención ya llena** y la lista de qué copiar y qué mejorar.
+- `gramatica.json`: **cómo se arma un video del estilo**, con las distribuciones de duración, las mezclas de transiciones, cámara y easing, **qué movimiento viene después de cuál**, la densidad de eventos y de sonidos, y las mejoras.
+- `estilo.borrador.json`: el `estilo.json` ya medido, con lo que falta marcado como COMPLETAR.
+- Por referencia: `storyboard.md/json` (**el storyboard real del video**, plano por plano), `planos.jpg`, `gancho.jpg`, `eventos.jpg`, `subtitulos.jpg`, `transiciones/`, `linea_tiempo.png` (cortes, eventos, sonidos, voz y subtítulos en una sola línea) y `mapa_actividad.jpg`.
 
 **Refuerzo con HyperFrames** cuando haga falta más precisión en algo puntual:
 ```bash
@@ -44,7 +48,7 @@ npx hyperframes measure ink    "<ref.mp4>" --at 4.8 --roi 0,150,720,200   # tama
 
 ## Fase B · Leer cuadro a cuadro (Claude mira)
 
-Abre **todas** las hojas: primero `planos.jpg` de cada referencia, luego `gancho.jpg`, luego **cada** tira de `transiciones/` y, para el detalle, los `planos/NNN.jpg` grandes. Llena esta ficha en `Estudio/Lectura.md`:
+Abre **todas** las hojas: primero `linea_tiempo.png` y `planos.jpg` de cada referencia, luego `gancho.jpg`, `eventos.jpg` (qué pasa dentro de los planos), `subtitulos.jpg`, **cada** tira de `transiciones/` y, para el detalle, los `planos/NNN.jpg` grandes. Completa la columna "Qué se ve" del `storyboard.md` real de al menos una referencia. Llena esta ficha en `Estudio/Lectura.md`:
 
 1. **Medio de dibujo:** ¿ilustración vectorial plana, semirrealista con degradados, 3D, recortes de foto, línea? ¿Con contorno o sin él? ¿De dónde viene la luz? ¿Qué textura tiene?
 2. **Tipografía exacta:** familia (compárala con las fuentes que trae HyperFrames: Poppins, Montserrat, Inter, Outfit, Nunito, Oswald…), peso, tamaño a 1080 de ancho, interletrado, sombra o borde.
@@ -90,6 +94,28 @@ Pasa el original por esta tabla de retención. Cada regla que el original **no**
 
 Además, mejora lo que el original hace a medias (por ejemplo: si usa la caja de palabra clave al azar, nosotros la usamos siempre en la palabra fuerte). Nunca "mejores" lo que es la identidad del estilo (paleta, medio de dibujo, tipo de subtítulo).
 
+## Fase E2 · Afinar con storyboards (el estilo se pule)
+
+Aquí el estilo deja de ser "parecido" y queda **fino**. Se repite hasta que los storyboards nuevos le ganen a las referencias.
+
+1. **Generar varios storyboards** con la gramática (3 a 6, en variantes **fiel**, **dinámica** y **cine**). Cada plano trae la duración, la transición, la cámara con valores para `EI.camara`, los eventos con su receta y los sonidos:
+```bash
+python3 "Herramientas/storyboard.py" esqueleto "Estilos/<Estilo>/estilo.json" --duracion 75 --n 6 --salida "Estilos/<Estilo>/Storyboards"
+```
+   Con la voz ya hecha, pasa la duración de cada audio para que los planos calcen con ella: `--partes 3.2,6.5,8.1,...`.
+2. **Claude completa** `que_se_ve` y `texto_voz` de cada uno con ideas de verdad, usando los recursos del estilo, con harto movimiento de cámara y sin dejar planos quietos.
+3. **Puntuar y comparar** contra los storyboards reales de las referencias:
+```bash
+python3 "Herramientas/storyboard.py" puntuar "Estilos/<Estilo>/estilo.json" Storyboards/*.json Estudio/ref*/storyboard.json --salida Storyboards/puntaje.md
+```
+   El total va de 0 a 100: 40 % fidelidad al estilo, 40 % retención y 20 % movimiento de cámara. Por cada storyboard dice **qué corregir** (planos que repiten movimiento, tramos sin nada nuevo, cortes sin sonido…).
+4. **Corrige** los dos mejores con esa lista y puntúa otra vez. Muéstrale al alumno (o a Paolo) el ganador en tabla (`storyboard.py md`).
+5. **Afinar:** el storyboard que apruebe ajusta la gramática del estilo (con historial y versión):
+```bash
+python3 "Herramientas/storyboard.py" afinar "Estilos/<Estilo>/estilo.json" Storyboards/sb_2_dinamica.json
+```
+   Desde ahí, los storyboards nuevos salen con lo aprendido. Cada video aprobado puede afinar el estilo otra vez.
+
 ## Fase F · Empaquetar e importar
 
 La carpeta del estilo queda así (es la misma que se sube al GitHub):
@@ -99,7 +125,8 @@ Estilos/<Nombre>/
 ├── estilo.json           (todos los números)
 ├── plantilla/            (proyecto HyperFrames listo para copiar: index.html + assets/)
 ├── ejemplo/demo.mp4      (render de la plantilla)
-├── Estudio/              (Informe de extracción.md, Lectura.md, hojas de cada referencia)
+├── Estudio/              (informe, gramatica.json, Lectura.md, storyboard real y hojas de cada referencia)
+├── Storyboards/          (los generados, el puntaje y los aprobados)
 └── Referencias/          (los mp4 originales)
 ```
 Paolo lo sube a `estilos-motion/<id>/` del repo y suma la línea en `estilos-motion/indice.json`. El alumno lo trae en un paso con `importar_estilo.py`.
