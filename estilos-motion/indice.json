@@ -1,0 +1,14 @@
+{
+  "repo": "dropnationlatam/SKILLS-DROP-NATION",
+  "actualizado": "2026-11-17",
+  "estilos": [
+    {
+      "id": "explicador-ilustrado",
+      "nombre": "Explicador Ilustrado",
+      "version": "1.0.0",
+      "descripcion": "Ilustración semirrealista sobre fondo oscuro con neón, cámara que entra 'por dentro', subtítulos karaoke arriba con caja azul en la palabra clave, muchos SFX y sin música.",
+      "formato": "9:16 · 30 fps · 60-90 s",
+      "demo": "explicador-ilustrado/ejemplo/demo.mp4"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+/* ================================================================
+   ESTILO "EXPLICADOR ILUSTRADO" · Drop Nation · Skill Motion
+   Todos los valores salen de estilo.json (medidos en las referencias).
+   ================================================================ */
+:root {
+  /* fondos */
+  --fondo-morado: #1E1033;
+  --fondo-morado-luz: #4A2466;
+  --fondo-azul: #0B0A22;
+  --fondo-azul-luz: #263466;
+  /* acentos neón */
+  --neon-rosa: #FF3FA4;
+  --neon-cian: #43D9FF;
+  --neon-oro: #FFC94A;
+  --neon-verde: #3DFFA8;
+  /* tonos orgánicos (piel, tejido) */
+  --piel: #E3A086;
+  --tejido: #E55F6B;
+  /* texto */
+  --tinta: #FFFFFF;
+  --tinta-dim: #8E8C9A;
+  --caja-clave: #2F7BFF;
+  --fuente: "Poppins", sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--fondo-morado); }
+#root { width: 1080px; height: 1920px; position: relative; overflow: hidden; font-family: var(--fuente); }
+
+/* ---------- escena + cámara ---------- */
+.escena { position: absolute; inset: 0; overflow: hidden; }
+.camara { position: absolute; inset: -12%; transform-origin: 50% 50%; will-change: transform; }
+.capa { position: absolute; inset: 0; }
+
+/* fondo con viñeta y brillo radial (sin degradado lineal: bandea en H.264) */
+.fondo-morado { background: radial-gradient(ellipse 70% 55% at 50% 45%, var(--fondo-morado-luz) 0%, var(--fondo-morado) 70%, #120922 100%); }
+.fondo-azul   { background: radial-gradient(ellipse 70% 55% at 50% 45%, var(--fondo-azul-luz) 0%, var(--fondo-azul) 72%, #05050F 100%); }
+.vineta { position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(ellipse 85% 70% at 50% 50%, transparent 55%, rgba(5, 2, 12, .65) 100%); }
+
+/* ---------- subtítulos karaoke (arriba, ~20 % de la altura) ---------- */
+#subtitulos { position: absolute; left: 0; width: 1080px; top: 300px; z-index: 50; }
+.grupo { position: absolute; left: 0; width: 1080px; padding: 0 110px; text-align: center;
+  font-family: var(--fuente); font-weight: 600; font-size: 70px; line-height: 1.22;
+  letter-spacing: -0.01em; opacity: 0; overflow: visible; }
+.pal { display: inline-block; position: relative; z-index: 1; margin: 0 .14em; color: var(--tinta); opacity: 0;
+  text-shadow: 0 3px 14px rgba(0, 0, 0, .55); }
+.pal.clave { padding: 0 .12em; }
+.caja { position: absolute; inset: -.06em -.1em -.02em -.1em; border: 4px solid var(--caja-clave);
+  border-radius: 8px; background: rgba(12, 18, 40, .35); opacity: 0; z-index: -1; }
+.caja::before, .caja::after { content: ""; position: absolute; width: 18px; height: 18px; border-radius: 50%;
+  background: #fff; border: 4px solid var(--caja-clave); }
+.caja::before { left: -11px; top: -11px; }
+.caja::after { right: -11px; bottom: -11px; }
+
+/* ---------- etiqueta tipo píldora ---------- */
+.etiqueta { position: absolute; padding: 12px 26px; border-radius: 16px; background: #fff; color: #1B1230;
+  font: 600 50px/1 var(--fuente); white-space: nowrap; box-shadow: 0 8px 30px rgba(0, 0, 0, .45); transform-origin: 50% 100%; }
+.etiqueta.oscura { background: rgba(20, 12, 34, .92); color: #fff; border: 2px solid rgba(255, 255, 255, .25); }
+
+/* ---------- burbuja de comentario (cierre) ---------- */
+.burbuja { position: absolute; display: flex; align-items: center; gap: 18px; padding: 18px 34px 18px 24px;
+  border-radius: 40px; background: #fff; color: #1B1230; font: 700 60px/1 var(--fuente);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, .5); transform-origin: 0% 100%; }
+.burbuja .punto { width: 28px; height: 28px; border-radius: 50%; background: #22C55E; }
+
+/* ---------- ícono globo ("?", "!", "Zz") ---------- */
+.globo { position: absolute; width: 120px; height: 120px; border-radius: 30px; background: #fff; color: var(--neon-rosa);
+  display: flex; align-items: center; justify-content: center; font: 800 78px/1 var(--fuente);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, .45); transform-origin: 20% 100%; }
+
+/* ---------- neón ---------- */
+.neon { position: absolute; inset: 0; overflow: visible; }
+.neon path, .neon circle { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.brillo-neon path, .brillo-neon circle { fill: none; }
+.brillo-neon { filter: drop-shadow(0 0 10px currentColor) drop-shadow(0 0 26px currentColor); }
+
+/* ---------- partículas / bokeh ---------- */
+.particula { position: absolute; border-radius: 50%; background: radial-gradient(circle, rgba(255,255,255,.9), rgba(255,255,255,0) 70%); }
+
+/* ---------- capas de transición ---------- */
+#destello { position: absolute; inset: 0; background: #fff; opacity: 0; z-index: 90; pointer-events: none; }
+#negro { position: absolute; inset: 0; background: #000; opacity: 0; z-index: 89; pointer-events: none; }
+
+/* ---------- lupa ---------- */
+.lupa { position: absolute; width: 420px; height: 420px; border-radius: 50%; overflow: hidden;
+  border: 16px solid #2A2438; box-shadow: 0 0 0 4px rgba(255,255,255,.35), 0 20px 60px rgba(0,0,0,.6); }
+.lupa .mango { position: absolute; width: 46px; height: 260px; background: #2A2438; border-radius: 23px; }
